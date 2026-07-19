@@ -129,7 +129,7 @@ export default function About() {
               <motion.div
                 animate={{ y: [4, -4, 4] }}
                 transition={{ duration: 5, repeat: Infinity, ease: 'easeInOut', delay: 1.2 }}
-                className="absolute -top-4 -left-3 sm:left-4 z-20 bg-white rounded-md px-4 py-3 shadow-[0_14px_40px_rgba(0,0,0,0.1)] border border-slate-100"
+                className="absolute top-[96px] -left-6 sm:-left-12 z-20 bg-white rounded-md px-4 py-3 shadow-[0_14px_40px_rgba(0,0,0,0.1)] border border-slate-100"
               >
                 <div className="flex flex-col gap-2">
                   {['ISO 27001', 'ISO 9001', 'SOC 2'].map((badge) => (
