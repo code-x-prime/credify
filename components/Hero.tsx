@@ -47,9 +47,9 @@ export default function Hero() {
           className="lg:col-span-7 max-w-2xl mx-auto lg:mx-0 w-full flex flex-col justify-center"
         >
           {/* Eyebrow */}
-          <motion.div variants={fadeUp}>
-            <span className="inline-flex items-center gap-2 px-4 py-1.5 bg-blue-50 border border-blue-200/70 rounded-full text-[11px] font-bold uppercase tracking-[0.2em] text-[#001f7d] mb-6">
-              <span className="w-1.5 h-1.5 rounded-full bg-orange-500 animate-pulse" />
+          <motion.div variants={fadeUp} className="flex justify-center lg:justify-start">
+            <span className="inline-flex items-center justify-center gap-2 px-3 sm:px-4 py-1 sm:py-1.5 bg-blue-50 border border-blue-200/70 rounded-full text-[9px] sm:text-[11px] font-bold uppercase tracking-[0.15em] sm:tracking-[0.2em] text-[#001f7d] mb-6 text-center">
+              <span className="w-1.5 h-1.5 rounded-full bg-orange-500 animate-pulse flex-shrink-0" />
               India&apos;s #1 Background Verification Partner
             </span>
           </motion.div>
