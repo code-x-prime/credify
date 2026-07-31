@@ -359,41 +359,47 @@ export default function Footer() {
           </div>
 
           {/* Bottom Bar */}
-          <div className="pt-8 flex flex-col md:flex-row items-center justify-between gap-4">
-            <div className="flex flex-col sm:flex-row items-center gap-2 sm:gap-4 text-center md:text-left">
-              <p className="text-xs text-white/40">
-                Credify India is a product of Brighto Credit Information Private Limited.
-              </p>
-              <span className="hidden sm:inline text-white/15">|</span>
-              <p className="text-xs text-white/40">
-                © {currentYear} Brighto Credit Information Private Limited. All Rights Reserved.
-              </p>
+          <div className="pt-8 mt-8 border-t border-white/[0.06] flex flex-col lg:flex-row items-center justify-between gap-6 text-xs text-white/40">
+            {/* Product Info & Copyright */}
+            <div className="flex flex-wrap items-center justify-center lg:justify-start gap-x-3 gap-y-1.5 text-center lg:text-left leading-relaxed">
+              <span>Credify India is a product of Brighto Credit Information Private Limited.</span>
+              <span className="hidden sm:inline text-white/20">•</span>
+              <span>© {currentYear} Brighto Credit Information Private Limited. All Rights Reserved.</span>
             </div>
-            <div className="flex flex-col sm:flex-row items-center gap-4 sm:gap-6">
-              <div className="flex items-center gap-6">
-                {['Privacy Policy', 'Terms of Service', 'Sitemap'].map((item) => (
-                  <a
-                    key={item}
-                    href="#"
-                    className="text-xs text-white/30 hover:text-white/60 transition-colors font-medium"
-                  >
-                    {item}
-                  </a>
-                ))}
+
+            {/* Links & Branding */}
+            <div className="flex flex-wrap items-center justify-center lg:justify-end gap-x-5 gap-y-2 text-center">
+              <div className="flex items-center gap-4">
+                <a
+                  href="https://brightoindia.com/privacy-policy"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:text-white/80 transition-colors"
+                >
+                  Privacy Policy
+                </a>
+                <span className="text-white/20">•</span>
+                <a
+                  href="https://brightoindia.com/terms-of-use"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:text-white/80 transition-colors"
+                >
+                  Terms of Service
+                </a>
               </div>
-              <div className="text-center sm:text-right">
-                <p className="text-[11px] text-white/25">
-                  Designed & Developed by{' '}
-                  <a
-                    href="https://groxmedia.in/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-orange-400/70 hover:text-orange-400 font-semibold transition-colors underline underline-offset-2 decoration-orange-400/30 hover:decoration-orange-400/60"
-                  >
-                    Grox Media
-                  </a>
-                </p>
-              </div>
+              <span className="hidden sm:inline text-white/20">•</span>
+              <p className="text-white/30">
+                Designed & Developed by{' '}
+                <a
+                  href="https://groxmedia.in/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-orange-400 hover:text-orange-300 font-semibold transition-colors underline underline-offset-2 decoration-orange-400/40"
+                >
+                  Grox Media
+                </a>
+              </p>
             </div>
           </div>
         </div>
