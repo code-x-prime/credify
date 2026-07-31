@@ -9,11 +9,13 @@ import { useDemoModal } from '@/contexts/DemoModalContext'
 
 const quickLinks = [
   { label: 'Home', href: '/' },
-  { label: 'About', href: '#about' },
-  { label: 'Why Us', href: '#why-us' },
-  { label: 'Process', href: '#process' },
-  { label: 'Industries', href: '#industries' },
-  { label: 'FAQ', href: '#faq' },
+  { label: 'About', href: '/#about' },
+  { label: 'Why Us', href: '/#why-us' },
+  { label: 'Process', href: '/#process' },
+  { label: 'Industries', href: '/#industries' },
+  { label: 'Career', href: '/career' },
+  { label: 'Contact', href: '/contact' },
+  { label: 'FAQ', href: '/#faq' },
 ]
 
 const servicesList = [

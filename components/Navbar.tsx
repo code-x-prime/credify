@@ -28,12 +28,14 @@ const servicesList = [
 
 const navLinks = [
   { label: 'Home', href: '/' },
-  { label: 'About', href: '#about' },
-  { label: 'Services', href: '#services', hasDropdown: true },
-  { label: 'Why Us', href: '#why-us' },
-  { label: 'Process', href: '#process' },
-  { label: 'Industries', href: '#industries' },
-  { label: 'FAQ', href: '#faq' },
+  { label: 'About', href: '/#about' },
+  { label: 'Services', href: '/#services', hasDropdown: true },
+  { label: 'Why Us', href: '/#why-us' },
+  { label: 'Process', href: '/#process' },
+  { label: 'Industries', href: '/#industries' },
+  { label: 'Career', href: '/career' },
+  { label: 'Contact', href: '/contact' },
+  { label: 'FAQ', href: '/#faq' },
 ]
 
 export default function Navbar() {
