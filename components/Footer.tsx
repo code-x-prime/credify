@@ -359,13 +359,12 @@ export default function Footer() {
           {/* Bottom Bar */}
           <div className="pt-8 flex flex-col md:flex-row items-center justify-between gap-4">
             <div className="flex flex-col sm:flex-row items-center gap-2 sm:gap-4 text-center md:text-left">
-              <p className="text-xs text-white/30">
-                &copy; {currentYear} Credify. All rights reserved.
+              <p className="text-xs text-white/40">
+                Credify India is a product of Brighto Credit Information Private Limited.
               </p>
               <span className="hidden sm:inline text-white/15">|</span>
-              <p className="text-xs text-white/30">
-                Powered by{' '}
-                <span className="font-medium text-white/50">BRIGHTO CREDIT INFORMATION PVT. LTD.</span>
+              <p className="text-xs text-white/40">
+                © {currentYear} Brighto Credit Information Private Limited. All Rights Reserved.
               </p>
             </div>
             <div className="flex flex-col sm:flex-row items-center gap-4 sm:gap-6">

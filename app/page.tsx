@@ -5,6 +5,7 @@ import ServicesGrid from '@/components/ServicesGrid'
 import WhyChooseUs from '@/components/WhyChooseUs'
 import ProcessTimeline from '@/components/ProcessTimeline'
 import IndustriesSection from '@/components/IndustriesSection'
+import Partnerships from '@/components/Partnerships'
 import CTASection from '@/components/CTASection'
 import FAQSection from '@/components/FAQSection'
 
@@ -18,6 +19,7 @@ export default function Page() {
       <WhyChooseUs />
       <ProcessTimeline />
       <IndustriesSection />
+      <Partnerships />
       <CTASection />
       <FAQSection />
     </main>
