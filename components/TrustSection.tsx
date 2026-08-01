@@ -132,15 +132,6 @@ export default function TrustSection() {
                 height={500}
                 priority
               />
-              {/* Overlay shadow info */}
-              <div className="absolute bottom-4 left-4 right-4 bg-white/90 backdrop-blur-md border border-slate-100 rounded-xl p-4 shadow-lg opacity-90 group-hover:opacity-100 transition-opacity">
-                <p className="text-sm font-bold text-slate-800 leading-tight mb-1">
-                  Technology-Driven Verification
-                </p>
-                <p className="text-xs text-slate-500 leading-normal">
-                  In addition to verification services, businesses can leverage our API platform to automate verification workflows, simplify digital onboarding, and integrate real-time verification capabilities into their existing systems.
-                </p>
-              </div>
             </div>
           </motion.div>
 
