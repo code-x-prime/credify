@@ -180,9 +180,9 @@ export default function APIsSection() {
           initial={{ opacity: 0, y: 24 }}
           animate={isInView ? { opacity: 1, y: 0 } : {}}
           transition={{ duration: 0.7, delay: 0.3 }}
-          className="relative rounded-3xl bg-white border border-slate-200/50 p-3 shadow-md hover:shadow-xl transition-all duration-300 overflow-hidden group mb-12 md:mb-14"
+          className="relative rounded-3xl bg-white border border-slate-200/50 p-3 shadow-md hover:shadow-xl transition-all duration-300 overflow-hidden group mb-10 md:mb-12"
         >
-          <div className="relative aspect-[16/9] w-full rounded-2xl overflow-hidden bg-slate-50 flex items-center justify-center">
+          <div className="relative aspect-[16/9] w-full rounded-2xl overflow-hidden bg-slate-50">
             <Image
               src="https://pikaso.cdnpk.net/private/production/5048955693/render.png?token=exp=1785888000~hmac=00d742deefce902ebf011d88a816f58ad10b723362382a3c910e2baa8405cb43"
               alt="Credify API Platform - Secure Verification APIs"
@@ -191,14 +191,6 @@ export default function APIsSection() {
               height={675}
               priority
             />
-            <div className="absolute bottom-4 left-4 right-4 bg-white/90 backdrop-blur-md border border-slate-100 rounded-xl p-4 shadow-lg opacity-90 group-hover:opacity-100 transition-opacity">
-              <p className="text-sm font-bold text-slate-800 leading-tight mb-1">
-                Secure & Scalable API Integration
-              </p>
-              <p className="text-xs text-slate-500 leading-normal">
-                Our API platform enables organizations to automate identity verification, KYC, compliance, onboarding, and business verification directly within their applications.
-              </p>
-            </div>
           </div>
         </motion.div>
 
