@@ -16,7 +16,7 @@ const apis = [
     href: '/identity-verification-api',
   },
   {
-    icon: '/icons/kyc-verification.svg',
+    icon: '/icons/kyc-api.svg',
     title: 'KYC APIs',
     desc: 'Automate KYC processes with fast, accurate identity verification and compliance workflows.',
     color: 'text-purple-600',
@@ -25,7 +25,7 @@ const apis = [
     href: '/kyc-api',
   },
   {
-    icon: '/icons/business-verification.svg',
+    icon: '/icons/business-verification-api.svg',
     title: 'Business Verification APIs',
     desc: 'Verify business credentials and registration details for secure partnerships and regulatory compliance.',
     color: 'text-amber-600',
@@ -34,7 +34,7 @@ const apis = [
     href: '/business-verification-api',
   },
   {
-    icon: '/icons/pan-verification.svg',
+    icon: '/icons/pan-verification-api.svg',
     title: 'PAN Verification API',
     desc: 'Validate PAN details instantly to support customer verification and financial compliance processes.',
     color: 'text-emerald-600',
@@ -43,7 +43,7 @@ const apis = [
     href: '/pan-verification-api',
   },
   {
-    icon: '/icons/aadhaar-verification.svg',
+    icon: '/icons/aadhaar-verification-api.svg',
     title: 'Aadhaar Verification API',
     desc: 'Enable secure Aadhaar-based identity verification for faster customer onboarding and authentication.',
     color: 'text-orange-600',
@@ -52,7 +52,7 @@ const apis = [
     href: '/aadhaar-verification-api',
   },
   {
-    icon: '/icons/gst-verification.svg',
+    icon: '/icons/gst-verification-api.svg',
     title: 'GST Verification API',
     desc: 'Verify GST registration details to simplify vendor onboarding and business verification.',
     color: 'text-sky-600',
@@ -79,7 +79,7 @@ const apis = [
     href: '/uan-verification',
   },
   {
-    icon: '/icons/document-verification.svg',
+    icon: '/icons/document-ocr-api.svg',
     title: 'Document OCR API',
     desc: 'Extract accurate data from documents automatically, eliminating manual data entry efforts.',
     color: 'text-violet-600',
