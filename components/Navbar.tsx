@@ -22,6 +22,7 @@ const apiProductsList = [
   { icon: '/icons/document-ocr-api.svg', label: 'Document OCR API', desc: 'AI-powered auto data parsing engine', color: 'bg-sky-500/10 text-sky-600 border-sky-200/50', href: '/document-ocr-api' },
   { icon: '/icons/uan-verification-api.svg', label: 'UAN Verification API', desc: 'EPFO passbook & service history check', color: 'bg-[#001f7d]/10 text-[#001f7d] border-blue-200/50', href: '/uan-verification-api' },
   { icon: '/icons/gst-verification-api.svg', label: 'GST Verification API', desc: 'B2B filing status & GSTIN validation', color: 'bg-emerald-500/10 text-emerald-600 border-emerald-200/50', href: '/gst-verification-api' },
+  { icon: '/icons/bank-account-verification.svg', label: 'Bank Account Verification API', desc: 'Real-time account validation & ownership check', color: 'bg-rose-500/10 text-rose-600 border-rose-200/50', href: '/bank-account-verification-api' },
 ]
 
 const servicesList = [

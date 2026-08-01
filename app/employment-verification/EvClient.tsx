@@ -231,6 +231,13 @@ export default function EvClient() {
                   Request a Demo
                   <ArrowRight size={18} />
                 </button>
+                <button
+                  onClick={openDemoModal}
+                  className="inline-flex items-center gap-2.5 bg-white text-slate-700 hover:text-blue-700 font-semibold text-sm sm:text-base px-8 py-3.5 rounded-full border border-slate-200 hover:border-blue-200 transition-all duration-300 shadow-sm"
+                >
+                  <PhoneCall size={18} />
+                  Talk to Our Experts
+                </button>
               </div>
             </div>
 
