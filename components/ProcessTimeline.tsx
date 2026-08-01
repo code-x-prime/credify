@@ -114,7 +114,7 @@ export default function ProcessTimeline() {
             transition={{ duration: 0.6, delay: 0.2 }}
             className="text-base sm:text-lg text-slate-500 leading-relaxed"
           >
-            Credify follows a clear background verification process to deliver accurate, secure, and timely results while maintaining consistency and transparency at every step.
+            Credify India follows a clear background verification process to deliver accurate, secure, and timely results while maintaining consistency and transparency at every step.
           </motion.p>
         </div>
 

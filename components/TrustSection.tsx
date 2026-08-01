@@ -106,10 +106,8 @@ export default function TrustSection() {
 
           {/* Heading */}
           <motion.h2
-            initial={{ opacity: 0, y: 20 }}
-            animate={isInView ? { opacity: 1, y: 0 } : {}}
-            transition={{ duration: 0.6, delay: 0.1 }}
-            className="text-3xl sm:text-4xl md:text-5xl font-extrabold tracking-tight text-slate-900 leading-tight mb-5"
+            variants={fadeUp}
+            className="text-3xl sm:text-4xl font-extrabold text-slate-900 tracking-tight leading-tight max-w-3xl mx-auto"
           >
             Trusted Background Verification Services for Every Business
           </motion.h2>
@@ -140,7 +138,7 @@ export default function TrustSection() {
                   Technology-Driven Verification
                 </p>
                 <p className="text-xs text-slate-500 leading-normal">
-                  Hiring isn&apos;t just about reading resumes. Credify helps organizations verify employment history, education, addresses, criminal records, identity documents, and vendor details.
+                  In addition to verification services, businesses can leverage our API platform to automate verification workflows, simplify digital onboarding, and integrate real-time verification capabilities into their existing systems.
                 </p>
               </div>
             </div>
@@ -168,13 +166,16 @@ export default function TrustSection() {
 
             <div>
               <p className="text-sm text-slate-500 leading-relaxed mb-4">
-                Hiring isn’t just about reading resumes and doing interviews. You need verified facts. Credify offers comprehensive Background Verification Services that help companies verify employment history, education, addresses, criminal records (where applicable), identity documents, vendor details, and other important information.
+                Hiring isn’t just about reading resumes and doing interviews. You need verified facts. Credify India offers comprehensive Background Verification Services that help companies verify employment history, education, addresses, criminal records (where applicable), identity documents, vendor details, and other important information.
               </p>
               <p className="text-sm text-slate-500 leading-relaxed mb-4">
                 Our standard workflows are designed to deliver accurate, quick, and consistent reports while keeping all information private.
               </p>
+              <p className="text-sm text-slate-500 leading-relaxed mb-4">
+                Whether you’re hiring new employees, adding vendors, or doing due diligence, businesses trust Credify India for flexible verification solutions that lead to better decisions, fewer risks, and stronger teams.
+              </p>
               <p className="text-sm text-slate-500 leading-relaxed mb-6">
-                Whether you’re hiring new employees, adding vendors, or doing due diligence, businesses trust Credify for flexible verification solutions that lead to better decisions, fewer risks, and stronger teams.
+                In addition to verification services, businesses can leverage our API platform to automate verification workflows, simplify digital onboarding, and integrate real-time verification capabilities into their existing systems.
               </p>
 
               <Link

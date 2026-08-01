@@ -230,7 +230,7 @@ export default function ServicesGrid() {
             transition={{ duration: 0.6, delay: 0.2 }}
             className="text-base sm:text-lg text-slate-500 leading-relaxed"
           >
-            Every company has its own hiring and compliance needs. Credify provides a full range of background verification and due diligence services that we can tailor to your team, industry, and internal policies.
+            Every company has its own hiring and compliance needs. Credify India provides a full range of background verification and due diligence services that we can tailor to your team, industry, and internal policies.
           </motion.p>
         </div>
 

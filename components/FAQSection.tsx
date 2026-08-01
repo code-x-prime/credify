@@ -21,12 +21,12 @@ interface FAQSectionProps {
 
 const defaultFaqs: FAQItem[] = [
   {
-    q: 'What are Background Verification Services?',
-    a: "They assist businesses in verifying candidates' employment history, education, identity, address, and other pertinent details prior to hiring decisions.",
+    q: 'Do you provide Verification APIs?',
+    a: 'Yes. Along with background verification services, Credify India offers verification APIs that help businesses automate identity verification, KYC, compliance, onboarding, and other verification workflows.',
   },
   {
-    q: 'Why is employee background verification important?',
-    a: 'It minimizes recruitment risk factors, verifies what candidates are saying, increases trust in the workplace, and improves recruitment decisions.',
+    q: 'Can we use both APIs and verification services together?',
+    a: 'Absolutely. Organizations can combine our verification services with API integrations to create a seamless verification ecosystem for hiring, customer onboarding, and compliance.',
   },
   {
     q: 'What checks are included in a background verification?',
@@ -49,8 +49,8 @@ const defaultFaqs: FAQItem[] = [
     a: 'Many sectors use these services, including IT, BFSI, healthcare, manufacturing, retail, logistics, staffing, education, hospitality, and more.',
   },
   {
-    q: 'Why choose Credify for background verification?',
-    a: "Since 2015, we've completed millions of checks, hold important certifications, work with experienced professionals, and use modern workflows to deliver trusted verification solutions.",
+    q: 'Why choose Credify India for background verification?',
+    a: "Since 2015, we’ve completed millions of checks, hold important certifications, work with experienced professionals, and use modern workflows to deliver trusted verification solutions.",
   },
 ]
 

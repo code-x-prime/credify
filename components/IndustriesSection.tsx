@@ -167,7 +167,7 @@ export default function IndustriesSection() {
             transition={{ duration: 0.6, delay: 0.2 }}
             className="text-base sm:text-lg text-slate-500 leading-relaxed"
           >
-            Different sectors have different hiring challenges. Credify provides customized background verification services for organizations across many fields.
+            Different sectors have different hiring challenges. Credify India provides customized background verification services for organizations across many fields.
           </motion.p>
         </div>
 

@@ -57,9 +57,9 @@ export default function Hero() {
           {/* Headline */}
           <motion.h1
             variants={fadeUp}
-            className="text-4xl sm:text-5xl md:text-6xl lg:text-[3.5rem]  font-extrabold tracking-tight text-slate-900 leading-[1.1] mb-6"
+            className="text-4xl sm:text-5xl md:text-6xl lg:text-[3.5rem] font-extrabold tracking-tight text-slate-900 leading-[1.1] mb-6"
           >
-            India&apos;s Proven Background Verification Services Partner for{' '}
+            India&apos;s Trusted Background Verification &amp;{' '}
             <span className="relative inline-block">
               <span
                 className="bg-clip-text text-transparent"
@@ -67,7 +67,7 @@ export default function Hero() {
                   backgroundImage: 'linear-gradient(135deg, #001f7d 0%, #ff7900 45%, #f97316 100%)',
                 }}
               >
-                Smarter &amp; Compliant Hiring
+                Verification API Platform
               </span>
               <svg
                 className="absolute -bottom-1 left-0 w-full h-3"
@@ -91,7 +91,7 @@ export default function Hero() {
             variants={fadeUp}
             className="text-base sm:text-lg text-slate-500 leading-relaxed max-w-xl mb-8"
           >
-            Make confident hiring decisions with proper background verification services. Credify provides secure, accurate, and dependable checks that help companies reduce hiring risks and build better teams.
+            Strengthen hiring, accelerate customer onboarding, and simplify compliance with comprehensive Background Verification Services and secure Verification APIs for KYC, identity verification, business verification, risk intelligence, and much more.
           </motion.p>
 
           {/* CTAs */}

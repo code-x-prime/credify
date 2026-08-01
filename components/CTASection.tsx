@@ -59,9 +59,9 @@ export default function CTASection() {
                 initial={{ opacity: 0, y: 20 }}
                 animate={isInView ? { opacity: 1, y: 0 } : {}}
                 transition={{ duration: 0.6, delay: 0.3 }}
-                className="text-2xl md:text-3xl  font-extrabold tracking-tight text-white leading-tight mb-6 max-w-2xl"
+                className="text-2xl md:text-3xl font-extrabold tracking-tight text-white leading-tight mb-6 max-w-2xl"
               >
-                Build a Trusted Workforce with Credify Background Verification Expert
+                Build a Trusted Workforce &amp; Smarter Digital Onboarding
               </motion.h2>
 
               {/* Body */}
@@ -69,9 +69,9 @@ export default function CTASection() {
                 initial={{ opacity: 0, y: 20 }}
                 animate={isInView ? { opacity: 1, y: 0 } : {}}
                 transition={{ duration: 0.6, delay: 0.4 }}
-                className="text-blue-100/70 text-sm sm:text-base  mb-10 max-w-xl leading-relaxed"
+                className="text-blue-100/70 text-sm sm:text-base mb-10 max-w-xl leading-relaxed"
               >
-                Credify provides organizations with comprehensive background verification services that reduce hiring risks, meet compliance requirements, and support confident decision-making. Work with our team for secure, scalable, and tech-enabled solutions that fit your company perfectly.
+                Whether you need comprehensive background verification services or API-powered verification for digital onboarding, Credify India delivers secure, scalable, and technology-driven solutions tailored to your business.
               </motion.p>
 
               {/* CTA Button with glow pulse */}

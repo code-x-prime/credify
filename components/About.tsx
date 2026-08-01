@@ -157,21 +157,24 @@ export default function About() {
             <div className="flex items-center gap-3">
               <div className="w-8 h-px bg-[#001f7d]" />
               <span className="text-[11px] font-bold uppercase tracking-[0.2em] text-[#001f7d]">
-                About Credify
+                About Credify India
               </span>
             </div>
 
             {/* Heading */}
             <h2 className="text-3xl sm:text-4xl lg:text-[2.6rem] font-extrabold tracking-tight text-slate-900 leading-tight">
-              Trusted Verification Partner Since 2015
+              About Credify India
             </h2>
 
             {/* Split paragraphs */}
             <p className="text-slate-500 text-sm sm:text-base leading-relaxed">
-              Since 2015, Credify has been a reliable name in Background Verification Services. We help organizations make smart hiring and business decisions by thoroughly checking key details. Our solutions are designed to verify critical data while ensuring security and compliance with standards.
+              Since 2015, Credify India has been a reliable name in Background Verification Services. We help organizations make smart hiring and business decisions by thoroughly checking key details. Our solutions are designed to verify critical data while ensuring security and compliance with standards.
             </p>
             <p className="text-slate-500 text-sm sm:text-base leading-relaxed">
-              As an ISO 27001-certified, ISO 9001-certified, and SOC 2 Audited company, we are committed to information security, quality management, and operational excellence. Our experienced verification professionals leverage technology-driven workflows to deliver reliable verification solutions tailored to the unique requirements of organizations across diverse industries.
+              As an ISO 27001-certified, ISO 9001-certified, and SOC 2-audited company, we are committed to information security, quality management, and operational excellence. Our experienced verification professionals leverage technology-driven workflows to deliver reliable verification solutions tailored to the unique requirements of organizations across diverse industries.
+            </p>
+            <p className="text-slate-500 text-sm sm:text-base leading-relaxed">
+              Beyond comprehensive background verification services, Credify India also offers verification APIs that enable organizations to automate identity verification, KYC, compliance, onboarding, and business verification directly within their applications. Our technology platform helps businesses reduce manual effort, improve operational efficiency, and accelerate decision-making through secure API integrations.
             </p>
 
             {/* Stats row */}

@@ -2,6 +2,7 @@ import Hero from '@/components/Hero'
 import About from '@/components/About'
 import TrustSection from '@/components/TrustSection'
 import ServicesGrid from '@/components/ServicesGrid'
+import APIsSection from '@/components/APIsSection'
 import WhyChooseUs from '@/components/WhyChooseUs'
 import ProcessTimeline from '@/components/ProcessTimeline'
 import IndustriesSection from '@/components/IndustriesSection'
@@ -16,6 +17,7 @@ export default function Page() {
       <About />
       <TrustSection />
       <ServicesGrid />
+      <APIsSection />
       <WhyChooseUs />
       <ProcessTimeline />
       <IndustriesSection />
