@@ -1,6 +1,7 @@
 'use client'
 
 import { motion, useInView } from 'framer-motion'
+import Link from 'next/link'
 import { useRef, useEffect, useState } from 'react'
 import Image from 'next/image'
 import { useDemoModal } from '@/contexts/DemoModalContext'
@@ -176,8 +177,8 @@ export default function TrustSection() {
                 Whether you’re hiring new employees, adding vendors, or doing due diligence, businesses trust Credify for flexible verification solutions that lead to better decisions, fewer risks, and stronger teams.
               </p>
 
-              <button
-                onClick={openDemoModal}
+              <Link
+                href="/contact"
                 className="group inline-flex items-center gap-2 text-sm font-semibold text-[#001f7d] hover:text-[#f97316] transition-all"
               >
                 Schedule a Consultation
@@ -196,7 +197,7 @@ export default function TrustSection() {
                   <path d="M7 7h10v10" />
                   <path d="M7 17 17 7" />
                 </svg>
-              </button>
+              </Link>
             </div>
           </motion.div>
         </div>

@@ -3,6 +3,7 @@
 import { ArrowUpRight } from 'lucide-react'
 import { motion, useInView } from 'framer-motion'
 import { useRef } from 'react'
+import Link from 'next/link'
 
 const fadeLeft = {
   hidden: { opacity: 0, x: -40 },
@@ -101,10 +102,10 @@ export default function About() {
                   </div>
 
                   {/* CTA link */}
-                  <div className="flex items-center gap-2 text-sm font-semibold text-[#001f7d] cursor-pointer group/link">
+                  <Link href="/about" className="inline-flex items-center gap-2 text-sm font-semibold text-[#001f7d] group/link">
                     <span className="group-hover/link:underline">Learn more about us</span>
                     <ArrowUpRight size={14} className="group-hover/link:translate-x-0.5 group-hover/link:-translate-y-0.5 transition-transform duration-200" />
-                  </div>
+                  </Link>
                 </div>
               </div>
 

@@ -11,17 +11,17 @@ import {
 import { useDemoModal } from '@/contexts/DemoModalContext'
 
 const apiProductsList = [
-  { icon: '/icons/document-verification.svg', label: 'Aadhaar Verification API', desc: 'Instant UIDAI validation & OCR extraction', color: 'bg-amber-500/10 text-amber-600 border-amber-200/50', href: '/aadhaar-verification-api' },
-  { icon: '/icons/document-verification.svg', label: 'PAN Verification API', desc: 'Real-time NSDL & ITD PAN status audit', color: 'bg-blue-500/10 text-blue-600 border-blue-200/50', href: '/pan-verification-api' },
-  { icon: '/icons/comprehensive-verification-solutions.svg', label: 'KYC API', desc: 'Complete paperless digital onboarding', color: 'bg-purple-500/10 text-purple-600 border-purple-200/50', href: '/kyc-api' },
-  { icon: '/icons/employee-background-verification.svg', label: 'Identity Verification API', desc: 'Multi-layer biometric & ID match', color: 'bg-emerald-500/10 text-emerald-600 border-emerald-200/50', href: '/identity-verification-api' },
+  { icon: '/icons/aadhaar-verification-api.svg', label: 'Aadhaar Verification API', desc: 'Instant UIDAI validation & OCR extraction', color: 'bg-amber-500/10 text-amber-600 border-amber-200/50', href: '/aadhaar-verification-api' },
+  { icon: '/icons/pan-verification-api.svg', label: 'PAN Verification API', desc: 'Real-time NSDL & ITD PAN status audit', color: 'bg-blue-500/10 text-blue-600 border-blue-200/50', href: '/pan-verification-api' },
+  { icon: '/icons/kyc-api.svg', label: 'KYC API', desc: 'Complete paperless digital onboarding', color: 'bg-purple-500/10 text-purple-600 border-purple-200/50', href: '/kyc-api' },
+  { icon: '/icons/identity-verification-api.svg', label: 'Identity Verification API', desc: 'Multi-layer biometric & ID match', color: 'bg-emerald-500/10 text-emerald-600 border-emerald-200/50', href: '/identity-verification-api' },
   { icon: '/icons/face-match-api.svg', label: 'Face Match API', desc: 'AI-powered facial comparison & fraud detection', color: 'bg-amber-500/10 text-amber-600 border-amber-200/50', href: '/face-match-api' },
   { icon: '/icons/liveness-detection-api.svg', label: 'Liveness Detection API', desc: 'Presentation attack & spoofing prevention', color: 'bg-emerald-500/10 text-emerald-600 border-emerald-200/50', href: '/liveness-detection-api' },
   { icon: '/icons/risk-intelligence-api.svg', label: 'Risk Intelligence API', desc: 'Smarter fraud detection & real-time risk scoring', color: 'bg-rose-500/10 text-rose-600 border-rose-200/50', href: '/risk-intelligence-api' },
-  { icon: '/icons/business-verification.svg', label: 'Business Verification API', desc: 'MCA21 & Director DIN background audit', color: 'bg-indigo-500/10 text-indigo-600 border-indigo-200/50', href: '/business-verification-api' },
-  { icon: '/icons/report-generation.svg', label: 'Document OCR API', desc: 'AI-powered auto data parsing engine', color: 'bg-sky-500/10 text-sky-600 border-sky-200/50', href: '/document-ocr-api' },
-  { icon: '/icons/uan-verification.svg', label: 'UAN Verification API', desc: 'EPFO passbook & service history check', color: 'bg-[#001f7d]/10 text-[#001f7d] border-blue-200/50', href: '/uan-verification-api' },
-  { icon: '/icons/vendor-verification.svg', label: 'GST Verification API', desc: 'B2B filing status & GSTIN validation', color: 'bg-emerald-500/10 text-emerald-600 border-emerald-200/50', href: '/gst-verification-api' },
+  { icon: '/icons/business-verification-api.svg', label: 'Business Verification API', desc: 'MCA21 & Director DIN background audit', color: 'bg-indigo-500/10 text-indigo-600 border-indigo-200/50', href: '/business-verification-api' },
+  { icon: '/icons/document-ocr-api.svg', label: 'Document OCR API', desc: 'AI-powered auto data parsing engine', color: 'bg-sky-500/10 text-sky-600 border-sky-200/50', href: '/document-ocr-api' },
+  { icon: '/icons/uan-verification-api.svg', label: 'UAN Verification API', desc: 'EPFO passbook & service history check', color: 'bg-[#001f7d]/10 text-[#001f7d] border-blue-200/50', href: '/uan-verification-api' },
+  { icon: '/icons/gst-verification-api.svg', label: 'GST Verification API', desc: 'B2B filing status & GSTIN validation', color: 'bg-emerald-500/10 text-emerald-600 border-emerald-200/50', href: '/gst-verification-api' },
 ]
 
 const servicesList = [

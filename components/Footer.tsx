@@ -2,6 +2,7 @@
 
 import Image from 'next/image'
 import { useState } from 'react'
+import { usePathname } from 'next/navigation'
 import {
   Mail, Phone, MapPin, ShieldCheck, ChevronDown, ArrowRight, Clock,
 } from 'lucide-react'
@@ -89,37 +90,42 @@ function AccordionColumn({ title, children, defaultOpen = false }: { title: stri
 
 export default function Footer() {
   const { openDemoModal } = useDemoModal()
+  const pathname = usePathname()
   const currentYear = new Date().getFullYear()
+
+  const showFloatingCta = pathname === '/' || pathname === '/contact' || pathname === '/career'
 
   return (
     <footer className="relative w-full">
-      {/* Floating CTA Card */}
-      <div className="relative z-10 -mt-16 sm:-mt-20">
-        <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="bg-gradient-to-br from-blue-50 via-blue-50/80 to-blue-50/60 rounded-md sm:rounded-md p-8 sm:p-10 md:p-12 shadow-[0_8px_40px_rgba(0,31,125,0.12)] border border-blue-100/60">
-            <div className="flex flex-col md:flex-row items-center gap-6 md:gap-10">
-              <div className="flex-1 text-center md:text-left">
-                <h3 className="text-xl sm:text-2xl font-bold text-slate-900 mb-2">
-                  Ready to build a trusted workforce?
-                </h3>
-                <p className="text-sm sm:text-base text-slate-500">
-                  Partner with Credify for secure, accurate, and compliant background verification.
-                </p>
+      {/* Floating CTA Card - Show only on Home (/) and Contact (/contact) */}
+      {showFloatingCta && (
+        <div className="relative z-10 -mt-16 sm:-mt-20">
+          <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="bg-gradient-to-br from-blue-50 via-blue-50/80 to-blue-50/60 rounded-md sm:rounded-md p-8 sm:p-10 md:p-12 shadow-[0_8px_40px_rgba(0,31,125,0.12)] border border-blue-100/60">
+              <div className="flex flex-col md:flex-row items-center gap-6 md:gap-10">
+                <div className="flex-1 text-center md:text-left">
+                  <h3 className="text-xl sm:text-2xl font-bold text-slate-900 mb-2">
+                    Ready to build a trusted workforce?
+                  </h3>
+                  <p className="text-sm sm:text-base text-slate-500">
+                    Partner with Credify for secure, accurate, and compliant background verification.
+                  </p>
+                </div>
+                <button
+                  onClick={openDemoModal}
+                  className="inline-flex items-center gap-2.5 bg-[#001f7d] text-white text-sm font-semibold px-8 py-3.5 rounded-full hover:bg-[#f97316] transition-all duration-300 shadow-[0_4px_16px_rgba(0,31,125,0.3)] hover:shadow-[0_6px_24px_rgba(249,115,22,0.4)] hover:scale-[1.03] active:scale-[0.98] whitespace-nowrap focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-500"
+                >
+                  Schedule a Consultation
+                  <ArrowRight size={16} />
+                </button>
               </div>
-              <button
-                onClick={openDemoModal}
-                className="inline-flex items-center gap-2.5 bg-[#001f7d] text-white text-sm font-semibold px-8 py-3.5 rounded-full hover:bg-[#f97316] transition-all duration-300 shadow-[0_4px_16px_rgba(0,31,125,0.3)] hover:shadow-[0_6px_24px_rgba(249,115,22,0.4)] hover:scale-[1.03] active:scale-[0.98] whitespace-nowrap focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-500"
-              >
-                Schedule a Consultation
-                <ArrowRight size={16} />
-              </button>
             </div>
           </div>
         </div>
-      </div>
+      )}
 
       {/* Main Dark Footer */}
-      <div className="relative bg-[#0B1210] mt-8 overflow-hidden">
+      <div className={`relative bg-[#0B1210] overflow-hidden ${showFloatingCta ? 'mt-8' : 'pt-8'}`}>
         {/* Subtle dot-grid texture */}
         <div
           className="absolute inset-0 opacity-[0.04] pointer-events-none"

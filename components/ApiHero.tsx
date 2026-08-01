@@ -71,13 +71,13 @@ export default function ApiHero({
                 Request a Demo
                 <ArrowRight size={18} />
               </button>
-              <button
-                onClick={openDemoModal}
+              <a
+                href="tel:+919311463901"
                 className="inline-flex items-center gap-2.5 bg-white/10 hover:bg-white/20 text-white font-semibold text-sm sm:text-base px-7 py-3.5 rounded-full border border-white/20 transition-all duration-300 backdrop-blur-md"
               >
-                <PhoneCall size={18} />
-                Talk to Our Experts
-              </button>
+                <PhoneCall size={18} className="text-orange-400" />
+                Call +91-9311463901
+              </a>
             </div>
           </div>
 

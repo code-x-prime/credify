@@ -1,6 +1,7 @@
 'use client'
 
 import { useState, useRef } from 'react'
+import Link from 'next/link'
 import { Plus, ArrowRight } from 'lucide-react'
 import { motion, AnimatePresence, useInView } from 'framer-motion'
 import { useDemoModal } from '@/contexts/DemoModalContext'
@@ -113,13 +114,13 @@ export default function FAQSection({
             >
               <p className="text-sm font-semibold text-slate-800 mb-1">Still have questions?</p>
               <p className="text-xs text-slate-500 mb-3">Our technical specialists are happy to help.</p>
-              <button
-                onClick={openDemoModal}
+              <Link
+                href="/contact"
                 className="inline-flex items-center gap-1.5 text-xs font-bold text-[#001f7d] hover:text-blue-700 transition-colors"
               >
                 Talk to Our Experts
                 <ArrowRight size={12} className="group-hover:translate-x-0.5 transition-transform" />
-              </button>
+              </Link>
             </motion.div>
 
             {/* Premium FAQ support illustration */}
