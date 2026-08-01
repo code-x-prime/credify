@@ -152,43 +152,42 @@ export default function TrustSection() {
               </div>
             </div>
 
-            {/* Text Content Below Image */}
-            <div className="space-y-3">
-              <p className="text-sm text-slate-600 leading-relaxed">
-                Hiring isn&apos;t just about reading resumes and doing interviews. You need verified facts. Credify India offers comprehensive Background Verification Services that help companies verify employment history, education, addresses, criminal records (where applicable), identity documents, vendor details, and other important information.
-              </p>
-              <p className="text-sm text-slate-600 leading-relaxed">
-                Our standard workflows are designed to deliver accurate, quick, and consistent reports while keeping all information private.
-              </p>
-              <p className="text-sm text-slate-600 leading-relaxed">
-                Whether you&apos;re hiring new employees, adding vendors, or doing due diligence, businesses trust Credify India for flexible verification solutions that lead to better decisions, fewer risks, and stronger teams.
-              </p>
-              <p className="text-sm text-slate-600 leading-relaxed">
-                In addition to verification services, businesses can leverage our API platform to automate verification workflows, simplify digital onboarding, and integrate real-time verification capabilities into their existing systems.
-              </p>
-
-              <Link
-                href="/contact"
-                className="group inline-flex items-center gap-2 text-sm font-semibold text-[#001f7d] hover:text-[#f97316] transition-all mt-2"
-              >
-                Schedule a Consultation
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="18"
-                  height="18"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke="currentColor"
-                  strokeWidth="2.2"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  className="group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform duration-300"
-                >
-                  <path d="M7 7h10v10" />
-                  <path d="M7 17 17 7" />
-                </svg>
-              </Link>
+            {/* Key Points with Icons */}
+            <div className="space-y-3 mb-5">
+              {[
+                { icon: '📋', text: 'Verify employment history, education, addresses, and criminal records with accuracy.' },
+                { icon: '🔒', text: 'All information kept private with ISO 27001 certified security standards.' },
+                { icon: '⚡', text: 'Fast, consistent reports to support better hiring decisions and reduce risks.' },
+              ].map((point, idx) => (
+                <div key={idx} className="flex items-start gap-3 p-3 rounded-xl bg-slate-50 border border-slate-100 hover:border-blue-200/60 hover:bg-blue-50/30 transition-all duration-200">
+                  <span className="text-lg flex-shrink-0 mt-0.5">{point.icon}</span>
+                  <p className="text-sm text-slate-600 leading-relaxed">{point.text}</p>
+                </div>
+              ))}
             </div>
+
+            {/* CTA */}
+            <Link
+              href="/contact"
+              className="group inline-flex items-center gap-2 text-sm font-semibold text-[#001f7d] hover:text-[#f97316] transition-all"
+            >
+              Schedule a Consultation
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="18"
+                height="18"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="2.2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                className="group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform duration-300"
+              >
+                <path d="M7 7h10v10" />
+                <path d="M7 17 17 7" />
+              </svg>
+            </Link>
           </motion.div>
         </div>
 
