@@ -62,42 +62,6 @@ const services = [
     href: '/police-verification',
   },
   {
-    icon: '/icons/document-verification.svg',
-    title: 'Identity Verification API',
-    desc: 'Perform multi-layer identity checks with facial recognition, ID verification, and liveness detection.',
-    iconBg: 'bg-emerald-50',
-    accentLine: 'bg-emerald-400',
-    category: 'individual',
-    href: '/identity-verification-api',
-  },
-    {
-      icon: '/icons/face-match-api.svg',
-      title: 'Face Match API',
-    desc: 'AI-powered facial image comparison, configurable similarity confidence scoring, and digital identity fraud prevention.',
-    iconBg: 'bg-amber-50',
-    accentLine: 'bg-amber-400',
-    category: 'individual',
-    href: '/face-match-api',
-  },
-    {
-      icon: '/icons/liveness-detection-api.svg',
-      title: 'Liveness Detection API',
-    desc: 'Passive liveness verification, photo/video spoofing detection, and real-time presentation attack prevention.',
-    iconBg: 'bg-emerald-50',
-    accentLine: 'bg-emerald-400',
-    category: 'individual',
-    href: '/liveness-detection-api',
-  },
-    {
-      icon: '/icons/risk-intelligence-api.svg',
-      title: 'Risk Intelligence API',
-    desc: 'Automated fraud risk indicators, intelligent risk scoring, and real-time compliance insights.',
-    iconBg: 'bg-rose-50',
-    accentLine: 'bg-rose-400',
-    category: 'business',
-    href: '/risk-intelligence-api',
-  },
-  {
     icon: '/icons/credit-check-verification.svg',
     title: 'Credit Check Verification',
     desc: 'Help suitable organizations check the financial background for roles that involve handling money, ensuring all proper permissions are in place.',
@@ -172,8 +136,8 @@ const services = [
 ]
 
 const categories = [
-  { label: 'All', value: 'all', count: 15 },
-  { label: 'Individual Checks', value: 'individual', count: 11 },
+  { label: 'All', value: 'all', count: 14 },
+  { label: 'Individual Checks', value: 'individual', count: 10 },
   { label: 'Business & Vendor', value: 'business', count: 4 },
 ]
 

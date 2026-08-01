@@ -75,7 +75,7 @@ export default function TrustSection() {
   return (
     <section
       ref={ref}
-      className="relative w-full bg-blue-50/20 py-12 md:py-16 overflow-hidden"
+      className="relative w-full bg-blue-50/20 py-10 md:py-14 overflow-hidden"
     >
       {/* Background texture */}
       <div
@@ -86,25 +86,23 @@ export default function TrustSection() {
         }}
       />
 
-      {/* Glow blobs like in demo.tsx */}
+      {/* Glow blobs */}
       <div className="absolute -z-10 w-[450px] h-[450px] -top-10 -left-20 rounded-full bg-blue-200/20 blur-3xl pointer-events-none" />
       <div className="absolute -z-10 w-[400px] h-[400px] bottom-10 right-0 rounded-full bg-orange-200/10 blur-3xl pointer-events-none" />
 
       <div className="relative max-w-7xl mx-auto px-6 sm:px-8 lg:px-12">
         {/* Header Section */}
-        <div className="text-center max-w-3xl mx-auto mb-12">
-          {/* Eyebrow */}
+        <div className="text-center max-w-3xl mx-auto mb-10">
           <motion.span
             initial={{ opacity: 0, y: 16 }}
             animate={isInView ? { opacity: 1, y: 0 } : {}}
             transition={{ duration: 0.5 }}
-            className="inline-flex items-center gap-2 px-4 py-1.5 bg-blue-50 border border-blue-200/60 rounded-full text-[11px] font-bold uppercase tracking-[0.2em] text-[#001f7d] mb-6 shadow-sm"
+            className="inline-flex items-center gap-2 px-4 py-1.5 bg-blue-50 border border-blue-200/60 rounded-full text-[11px] font-bold uppercase tracking-[0.2em] text-[#001f7d] mb-5 shadow-sm"
           >
             <span className="w-1.5 h-1.5 rounded-full bg-orange-500" />
             Why Verification Matters
           </motion.span>
 
-          {/* Heading */}
           <motion.h2
             variants={fadeUp}
             className="text-3xl sm:text-4xl font-extrabold text-slate-900 tracking-tight leading-tight max-w-3xl mx-auto"
@@ -113,21 +111,20 @@ export default function TrustSection() {
           </motion.h2>
         </div>
 
-        {/* Demo-style 3-Column Layout Block */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-10 items-start mb-16">
-          {/* Column 1 & 2: Large Showcase Mockup */}
+        {/* Main Content: Image + Text Side by Side */}
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-start mb-12">
+          {/* Left: Dashboard Image */}
           <motion.div
             initial={{ opacity: 0, y: 24 }}
             animate={isInView ? { opacity: 1, y: 0 } : {}}
             transition={{ duration: 0.7, delay: 0.2 }}
-            className="md:col-span-2 relative rounded-3xl bg-white border border-slate-200/50 p-3 shadow-md hover:shadow-xl transition-all duration-300 overflow-hidden group"
+            className="relative rounded-2xl bg-white border border-slate-200/50 p-2 shadow-md hover:shadow-xl transition-all duration-300 overflow-hidden group"
           >
-            <div className="relative aspect-[16/10] w-full rounded-2xl overflow-hidden bg-slate-50 flex items-center justify-center">
-              {/* Image */}
+            <div className="relative aspect-[16/10] w-full rounded-xl overflow-hidden bg-slate-50">
               <Image
                 src="/images/verification_dashboard_showcase.png"
                 alt="Verification Dashboard Showcase"
-                className="w-full h-full object-cover rounded-2xl group-hover:scale-[1.02] transition-transform duration-500"
+                className="w-full h-full object-cover rounded-xl group-hover:scale-[1.02] transition-transform duration-500"
                 width={800}
                 height={500}
                 priority
@@ -135,56 +132,57 @@ export default function TrustSection() {
             </div>
           </motion.div>
 
-          {/* Column 3: Text & Highlight block with small illustration */}
+          {/* Right: Report Image + Text Content */}
           <motion.div
             initial={{ opacity: 0, x: 24 }}
             animate={isInView ? { opacity: 1, x: 0 } : {}}
             transition={{ duration: 0.7, delay: 0.3 }}
-            className="md:col-span-1 flex flex-col"
+            className="flex flex-col"
           >
-            {/* Small image container */}
-            <div className="relative rounded-2xl bg-white border border-slate-200/50 p-2 shadow-sm hover:shadow-md transition-shadow overflow-hidden group mb-6">
-              <div className="aspect-[4/3] w-full rounded-xl overflow-hidden bg-slate-50">
+            {/* Small Report Image */}
+            <div className="relative rounded-2xl bg-white border border-slate-200/50 p-2 shadow-sm hover:shadow-md transition-shadow overflow-hidden group mb-5">
+              <div className="aspect-[16/9] w-full rounded-xl overflow-hidden bg-slate-50">
                 <Image
                   src="/images/verification_report_stamp.png"
                   alt="Verified Report Stamp"
                   className="w-full h-full object-cover rounded-xl group-hover:scale-105 transition-transform duration-300"
-                  width={400}
-                  height={300}
+                  width={600}
+                  height={340}
                 />
               </div>
             </div>
 
-            <div>
-              <p className="text-sm text-slate-500 leading-relaxed mb-4">
-                Hiring isn’t just about reading resumes and doing interviews. You need verified facts. Credify India offers comprehensive Background Verification Services that help companies verify employment history, education, addresses, criminal records (where applicable), identity documents, vendor details, and other important information.
+            {/* Text Content Below Image */}
+            <div className="space-y-3">
+              <p className="text-sm text-slate-600 leading-relaxed">
+                Hiring isn&apos;t just about reading resumes and doing interviews. You need verified facts. Credify India offers comprehensive Background Verification Services that help companies verify employment history, education, addresses, criminal records (where applicable), identity documents, vendor details, and other important information.
               </p>
-              <p className="text-sm text-slate-500 leading-relaxed mb-4">
+              <p className="text-sm text-slate-600 leading-relaxed">
                 Our standard workflows are designed to deliver accurate, quick, and consistent reports while keeping all information private.
               </p>
-              <p className="text-sm text-slate-500 leading-relaxed mb-4">
-                Whether you’re hiring new employees, adding vendors, or doing due diligence, businesses trust Credify India for flexible verification solutions that lead to better decisions, fewer risks, and stronger teams.
+              <p className="text-sm text-slate-600 leading-relaxed">
+                Whether you&apos;re hiring new employees, adding vendors, or doing due diligence, businesses trust Credify India for flexible verification solutions that lead to better decisions, fewer risks, and stronger teams.
               </p>
-              <p className="text-sm text-slate-500 leading-relaxed mb-6">
+              <p className="text-sm text-slate-600 leading-relaxed">
                 In addition to verification services, businesses can leverage our API platform to automate verification workflows, simplify digital onboarding, and integrate real-time verification capabilities into their existing systems.
               </p>
 
               <Link
                 href="/contact"
-                className="group inline-flex items-center gap-2 text-sm font-semibold text-[#001f7d] hover:text-[#f97316] transition-all"
+                className="group inline-flex items-center gap-2 text-sm font-semibold text-[#001f7d] hover:text-[#f97316] transition-all mt-2"
               >
                 Schedule a Consultation
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  width="20"
-                  height="20"
+                  width="18"
+                  height="18"
                   viewBox="0 0 24 24"
                   fill="none"
                   stroke="currentColor"
                   strokeWidth="2.2"
                   strokeLinecap="round"
                   strokeLinejoin="round"
-                  className="lucide lucide-arrow-up-right group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform duration-300"
+                  className="group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform duration-300"
                 >
                   <path d="M7 7h10v10" />
                   <path d="M7 17 17 7" />
@@ -197,7 +195,7 @@ export default function TrustSection() {
         {/* Stats Row */}
         <div 
           ref={statsRef}
-          className="grid grid-cols-2 md:grid-cols-4 gap-0 mb-16 md:divide-x divide-slate-200/60 border-y border-slate-200/40 bg-white/40 rounded-xl py-2 shadow-sm"
+          className="grid grid-cols-2 md:grid-cols-4 gap-0 mb-12 md:divide-x divide-slate-200/60 border-y border-slate-200/40 bg-white/40 rounded-xl py-2 shadow-sm"
         >
           {stats.map((stat, i) => (
             <StatBlock key={stat.label} stat={stat} index={i} isInView={statsInView} />
@@ -211,7 +209,7 @@ export default function TrustSection() {
           transition={{ duration: 0.5, delay: 0.6 }}
           className="text-center"
         >
-          <p className="text-xs font-semibold text-slate-400 uppercase tracking-wider mb-6">
+          <p className="text-xs font-semibold text-slate-400 uppercase tracking-wider mb-5">
             Trusted by teams across industries
           </p>
           <div className="flex items-center justify-center gap-6 sm:gap-10 flex-wrap">
