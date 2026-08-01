@@ -9,22 +9,30 @@ import { useDemoModal } from '@/contexts/DemoModalContext'
 
 const quickLinks = [
   { label: 'Home', href: '/' },
-  { label: 'About', href: '/#about' },
-  { label: 'Why Us', href: '/#why-us' },
-  { label: 'Process', href: '/#process' },
-  { label: 'Industries', href: '/#industries' },
-  { label: 'Career', href: '/career' },
-  { label: 'Contact', href: '/contact' },
-  { label: 'FAQ', href: '/#faq' },
+  { label: 'About Us', href: '/about' },
+  { label: 'Careers', href: '/career' },
+  { label: 'Contact Us', href: '/contact' },
+  { label: 'Privacy Policy', href: '/contact' },
+  { label: 'Terms of Service', href: '/contact' },
 ]
 
 const servicesList = [
-  { label: 'Employee Background Verification', href: '#services' },
-  { label: 'Employment Verification', href: '#services' },
-  { label: 'Education Verification', href: '#services' },
-  { label: 'Address Verification', href: '#services' },
-  { label: 'Criminal Background Check', href: '#services' },
-  { label: 'Due Diligence Services', href: '#services' },
+  { label: 'Aadhaar Verification API', href: '/aadhaar-verification-api' },
+  { label: 'KYC API', href: '/kyc-api' },
+  { label: 'PAN Verification API', href: '/pan-verification-api' },
+  { label: 'Identity Verification API', href: '/identity-verification-api' },
+  { label: 'Business Verification API', href: '/business-verification-api' },
+  { label: 'Document OCR API', href: '/document-ocr-api' },
+  { label: 'UAN Verification API', href: '/uan-verification-api' },
+  { label: 'GST Verification API', href: '/gst-verification-api' },
+  { label: 'Employee Background Verification', href: '/employee-background-verification' },
+  { label: 'Employment Verification', href: '/employment-verification' },
+  { label: 'Court Record Verification', href: '/court-record-verification' },
+  { label: 'Education Verification', href: '/education-verification' },
+  { label: 'Address Verification', href: '/address-verification' },
+  { label: 'Police Verification', href: '/police-verification' },
+  { label: 'Criminal Background Check', href: '/criminal-background-check' },
+  { label: 'Due Diligence Services', href: '/due-diligence-services' },
 ]
 
 const certBadges = ['ISO 27001', 'ISO 9001', 'SOC 2']
@@ -126,7 +134,7 @@ export default function Footer() {
           <div className="hidden lg:grid grid-cols-12 gap-10 pb-12 border-b border-white/[0.06]">
 
             {/* Brand Column */}
-            <div className="col-span-4 flex flex-col gap-5">
+            <div className="col-span-3 flex flex-col gap-5">
               <Image
                 src="/images/Credify-Logo.png"
                 alt="Credify"
@@ -184,27 +192,27 @@ export default function Footer() {
               </ul>
             </div>
 
-            {/* Services */}
-            <div className="col-span-3">
+            {/* Services (2-column layout) */}
+            <div className="col-span-4">
               <h3 className="text-[11px] font-bold text-white/80 mb-5 uppercase tracking-[0.18em]">Our Services</h3>
-              <ul className="space-y-3">
+              <ul className="grid grid-cols-2 gap-x-6 gap-y-2.5">
                 {servicesList.map((service) => (
                   <li key={service.label}>
                     <a
                       href={service.href}
-                      className="text-sm text-white/40 hover:text-orange-400 transition-all duration-200 group inline-flex items-center gap-1"
+                      className="text-xs text-white/45 hover:text-orange-400 transition-all duration-200 group inline-flex items-center gap-1 leading-snug"
                     >
-                      <span>{service.label}</span>
-                      <ArrowRight size={11} className="opacity-0 -translate-x-1 group-hover:opacity-100 group-hover:translate-x-0 transition-all duration-200" />
+                      <span className="truncate">{service.label}</span>
+                      <ArrowRight size={10} className="opacity-0 -translate-x-1 group-hover:opacity-100 group-hover:translate-x-0 transition-all duration-200 flex-shrink-0 text-orange-400" />
                     </a>
                   </li>
                 ))}
               </ul>
               <a
                 href="#services"
-                className="inline-flex items-center gap-1.5 mt-4 text-xs font-semibold text-orange-400 hover:text-orange-300 transition-colors"
+                className="inline-flex items-center gap-1.5 mt-5 text-xs font-bold text-orange-400 hover:text-orange-300 transition-colors"
               >
-                View All Services
+                View All Solutions
                 <ArrowRight size={12} />
               </a>
             </div>

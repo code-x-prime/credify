@@ -3,6 +3,7 @@
 import { ArrowRight } from 'lucide-react'
 import { motion, useInView, AnimatePresence } from 'framer-motion'
 import { useRef, useState } from 'react'
+import Link from 'next/link'
 
 const services = [
   {
@@ -13,6 +14,7 @@ const services = [
     accentLine: 'bg-blue-400',
     featured: true,
     category: 'individual',
+    href: '/employee-background-verification',
   },
   {
     icon: '/icons/employment-verification.svg',
@@ -21,6 +23,7 @@ const services = [
     iconBg: 'bg-blue-50',
     accentLine: 'bg-blue-400',
     category: 'individual',
+    href: '/employment-verification',
   },
   {
     icon: '/icons/education-verification.svg',
@@ -29,6 +32,7 @@ const services = [
     iconBg: 'bg-purple-50',
     accentLine: 'bg-purple-400',
     category: 'individual',
+    href: '/education-verification',
   },
   {
     icon: '/icons/address-verification.svg',
@@ -37,6 +41,7 @@ const services = [
     iconBg: 'bg-amber-50',
     accentLine: 'bg-amber-400',
     category: 'individual',
+    href: '/address-verification',
   },
   {
     icon: '/icons/criminal-background-check.svg',
@@ -45,6 +50,7 @@ const services = [
     iconBg: 'bg-red-50',
     accentLine: 'bg-red-400',
     category: 'individual',
+    href: '/criminal-background-check',
   },
   {
     icon: '/icons/court-record-verification.svg',
@@ -53,14 +59,43 @@ const services = [
     iconBg: 'bg-orange-50',
     accentLine: 'bg-orange-400',
     category: 'individual',
+    href: '/police-verification',
   },
   {
-    icon: '/icons/police-verification.svg',
-    title: 'Police Verification',
-    desc: "Arrange police verification in accordance with your company's needs and local regulations.",
-    iconBg: 'bg-sky-50',
-    accentLine: 'bg-sky-400',
+    icon: '/icons/document-verification.svg',
+    title: 'Identity Verification API',
+    desc: 'Perform multi-layer identity checks with facial recognition, ID verification, and liveness detection.',
+    iconBg: 'bg-emerald-50',
+    accentLine: 'bg-emerald-400',
     category: 'individual',
+    href: '/identity-verification-api',
+  },
+    {
+      icon: '/icons/face-match-api.svg',
+      title: 'Face Match API',
+    desc: 'AI-powered facial image comparison, configurable similarity confidence scoring, and digital identity fraud prevention.',
+    iconBg: 'bg-amber-50',
+    accentLine: 'bg-amber-400',
+    category: 'individual',
+    href: '/face-match-api',
+  },
+    {
+      icon: '/icons/liveness-detection-api.svg',
+      title: 'Liveness Detection API',
+    desc: 'Passive liveness verification, photo/video spoofing detection, and real-time presentation attack prevention.',
+    iconBg: 'bg-emerald-50',
+    accentLine: 'bg-emerald-400',
+    category: 'individual',
+    href: '/liveness-detection-api',
+  },
+    {
+      icon: '/icons/risk-intelligence-api.svg',
+      title: 'Risk Intelligence API',
+    desc: 'Automated fraud risk indicators, intelligent risk scoring, and real-time compliance insights.',
+    iconBg: 'bg-rose-50',
+    accentLine: 'bg-rose-400',
+    category: 'business',
+    href: '/risk-intelligence-api',
   },
   {
     icon: '/icons/credit-check-verification.svg',
@@ -69,6 +104,7 @@ const services = [
     iconBg: 'bg-blue-50',
     accentLine: 'bg-blue-400',
     category: 'individual',
+    href: '/credit-check-verification',
   },
   {
     icon: '/icons/drug-screening-verification.svg',
@@ -77,6 +113,7 @@ const services = [
     iconBg: 'bg-pink-50',
     accentLine: 'bg-pink-400',
     category: 'individual',
+    href: '/drug-screening-verification',
   },
   {
     icon: '/icons/document-verification.svg',
@@ -85,6 +122,7 @@ const services = [
     iconBg: 'bg-indigo-50',
     accentLine: 'bg-indigo-400',
     category: 'individual',
+    href: '/document-verification',
   },
   {
     icon: '/icons/uan-verification.svg',
@@ -93,6 +131,7 @@ const services = [
     iconBg: 'bg-blue-50',
     accentLine: 'bg-blue-400',
     category: 'individual',
+    href: '/uan-verification',
   },
   {
     icon: '/icons/vendor-verification.svg',
@@ -101,6 +140,7 @@ const services = [
     iconBg: 'bg-blue-50',
     accentLine: 'bg-blue-400',
     category: 'business',
+    href: '/vendor-verification',
   },
   {
     icon: '/icons/tenant-verification.svg',
@@ -109,6 +149,7 @@ const services = [
     iconBg: 'bg-orange-50',
     accentLine: 'bg-orange-400',
     category: 'business',
+    href: '/tenant-verification',
   },
   {
     icon: '/icons/driver-verification.svg',
@@ -117,6 +158,7 @@ const services = [
     iconBg: 'bg-sky-50',
     accentLine: 'bg-sky-400',
     category: 'business',
+    href: '/driver-verification',
   },
   {
     icon: '/icons/due-diligence-services.svg',
@@ -125,6 +167,7 @@ const services = [
     iconBg: 'bg-violet-50',
     accentLine: 'bg-violet-400',
     category: 'business',
+    href: '/due-diligence-services',
   },
 ]
 
@@ -244,7 +287,7 @@ export default function ServicesGrid() {
                   {/* Accent line top */}
                   <div className={`h-1 w-full ${service.accentLine} opacity-40 group-hover:opacity-100 transition-opacity duration-300`} />
 
-                  <div className="p-5 sm:p-6">
+                  <Link href={service.href} className="p-5 sm:p-6 block">
                     {/* Featured badge */}
                     {isFeatured && (
                       <span className="inline-flex items-center gap-1 px-3 py-1 bg-[#001f7d] text-white text-[10px] font-bold uppercase tracking-wider rounded-full shadow-sm mb-4">
@@ -261,15 +304,15 @@ export default function ServicesGrid() {
                     </div>
 
                     {/* Content */}
-                    <h3 className="font-bold text-slate-900 text-base sm:text-lg mb-2 leading-snug">{service.title}</h3>
+                    <h3 className="font-bold text-slate-900 text-base sm:text-lg mb-2 leading-snug group-hover:text-[#001f7d] transition-colors">{service.title}</h3>
                     <p className="text-sm text-slate-500 leading-relaxed mb-4 line-clamp-2">{service.desc}</p>
 
                     {/* Learn more link */}
-                    <div className="flex items-center gap-1.5 text-xs font-semibold text-[#001f7d] opacity-0 group-hover:opacity-100 transition-all duration-300 -translate-x-1 group-hover:translate-x-0">
+                    <div className="flex items-center gap-1.5 text-xs font-semibold text-[#001f7d] transition-all duration-300">
                       <span>Learn more</span>
-                      <ArrowRight size={12} className="group-hover:translate-x-0.5 transition-transform duration-200" />
+                      <ArrowRight size={12} className="group-hover:translate-x-1 transition-transform duration-200" />
                     </div>
-                  </div>
+                  </Link>
 
                   {/* Hover border accent */}
                   <div className="absolute inset-0 rounded-md ring-1 ring-inset ring-transparent group-hover:ring-slate-200/60 transition-all duration-300 pointer-events-none" />

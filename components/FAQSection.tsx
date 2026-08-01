@@ -1,11 +1,24 @@
 'use client'
 
-import { useState } from 'react'
+import { useState, useRef } from 'react'
 import { Plus, ArrowRight } from 'lucide-react'
 import { motion, AnimatePresence, useInView } from 'framer-motion'
-import { useRef } from 'react'
+import { useDemoModal } from '@/contexts/DemoModalContext'
 
-const faqs = [
+export interface FAQItem {
+  q: string
+  a: string
+}
+
+interface FAQSectionProps {
+  title?: string
+  subtitle?: string
+  badgeText?: string
+  faqs?: FAQItem[]
+  id?: string
+}
+
+const defaultFaqs: FAQItem[] = [
   {
     q: 'What are Background Verification Services?',
     a: "They assist businesses in verifying candidates' employment history, education, identity, address, and other pertinent details prior to hiring decisions.",
@@ -40,16 +53,23 @@ const faqs = [
   },
 ]
 
-export default function FAQSection() {
+export default function FAQSection({
+  title = 'Frequently Asked Questions',
+  subtitle = 'Everything you need to know about verification services and how Credify can help your organization.',
+  badgeText = 'FAQ',
+  faqs = defaultFaqs,
+  id = 'faq',
+}: FAQSectionProps) {
   const [openIndex, setOpenIndex] = useState<number | null>(0)
+  const { openDemoModal } = useDemoModal()
   const ref = useRef(null)
   const isInView = useInView(ref, { once: true, margin: '-80px' })
 
   return (
     <section
-      id="faq"
+      id={id}
       ref={ref}
-      className="relative w-full bg-white pt-10 md:pt-14 pb-28 md:pb-36 overflow-hidden"
+      className="relative w-full bg-white pt-10 md:pt-14 pb-24 md:pb-32 overflow-hidden"
     >
       <div className="max-w-7xl mx-auto px-6 sm:px-8 lg:px-12">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16">
@@ -63,7 +83,7 @@ export default function FAQSection() {
               className="inline-flex items-center gap-2 px-4 py-1.5 bg-blue-50 border border-blue-200/60 rounded-full text-[11px] font-bold uppercase tracking-[0.2em] text-[#001f7d] mb-6"
             >
               <span className="w-1.5 h-1.5 rounded-full bg-orange-400" />
-              FAQ
+              {badgeText}
             </motion.span>
 
             <motion.h2
@@ -72,7 +92,7 @@ export default function FAQSection() {
               transition={{ duration: 0.6, delay: 0.1 }}
               className="text-3xl sm:text-4xl font-extrabold tracking-tight text-slate-900 leading-tight mb-4"
             >
-              Frequently Asked Questions
+              {title}
             </motion.h2>
 
             <motion.p
@@ -81,7 +101,7 @@ export default function FAQSection() {
               transition={{ duration: 0.6, delay: 0.2 }}
               className="text-slate-500 text-sm sm:text-base leading-relaxed mb-8"
             >
-              Everything you need to know about background verification services and how Credify can help your organization.
+              {subtitle}
             </motion.p>
 
             {/* Still have questions? mini-CTA */}
@@ -92,14 +112,14 @@ export default function FAQSection() {
               className="bg-blue-50/70 border border-blue-100 rounded-md p-5 mb-6"
             >
               <p className="text-sm font-semibold text-slate-800 mb-1">Still have questions?</p>
-              <p className="text-xs text-slate-500 mb-3">Our team is happy to help.</p>
-              <a
-                href="#contact"
+              <p className="text-xs text-slate-500 mb-3">Our technical specialists are happy to help.</p>
+              <button
+                onClick={openDemoModal}
                 className="inline-flex items-center gap-1.5 text-xs font-bold text-[#001f7d] hover:text-blue-700 transition-colors"
               >
-                Contact Us
+                Talk to Our Experts
                 <ArrowRight size={12} className="group-hover:translate-x-0.5 transition-transform" />
-              </a>
+              </button>
             </motion.div>
 
             {/* Premium FAQ support illustration */}
@@ -167,7 +187,6 @@ export default function FAQSection() {
                             className="overflow-hidden"
                           >
                             <div className="px-6 pb-5 pl-[4.5rem]">
-                              {/* Green left accent bar */}
                               <div className="relative pl-4 border-l-2 border-blue-200">
                                 <p className="text-sm text-slate-500 leading-relaxed">{faq.a}</p>
                               </div>
