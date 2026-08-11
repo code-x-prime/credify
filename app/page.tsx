@@ -6,6 +6,7 @@ import APIsSection from '@/components/APIsSection'
 import WhyChooseUs from '@/components/WhyChooseUs'
 import ProcessTimeline from '@/components/ProcessTimeline'
 import IndustriesSection from '@/components/IndustriesSection'
+import Team from '@/components/Team'
 import Partnerships from '@/components/Partnerships'
 import CTASection from '@/components/CTASection'
 import FAQSection from '@/components/FAQSection'
@@ -21,6 +22,7 @@ export default function Page() {
       <WhyChooseUs />
       <ProcessTimeline />
       <IndustriesSection />
+      <Team />
       <Partnerships />
       <CTASection />
       <FAQSection />
