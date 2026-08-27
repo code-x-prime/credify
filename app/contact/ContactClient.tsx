@@ -186,8 +186,8 @@ export default function ContactClient() {
                   </div>
                   <div>
                     <h4 className="text-sm font-bold text-slate-900">Contact Number</h4>
-                    <a href="tel:+919311463901" className="text-xs sm:text-sm text-[#001f7d] font-bold hover:underline mt-1 block">
-                      +91-9311463901
+                    <a href="tel:+911204539428" className="text-xs sm:text-sm text-[#001f7d] font-bold hover:underline mt-1 block">
+                      +91 120 453 9428
                     </a>
                   </div>
                 </div>

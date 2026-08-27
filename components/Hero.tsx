@@ -104,11 +104,11 @@ export default function Hero() {
               <ArrowRight size={16} />
             </button>
             <a
-              href="tel:+919311463901"
+              href="tel:+911204539428"
               className="inline-flex items-center gap-2 bg-white border border-slate-200 text-slate-700 text-sm font-semibold px-8 py-4 rounded-full hover:bg-slate-50 hover:border-slate-300 hover:text-slate-900 transition-all duration-300 shadow-sm hover:shadow focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#001f7d]"
             >
               <Phone size={15} className="text-orange-500" />
-              Call +91-9311463901
+              Call +91 120 453 9428
             </a>
           </motion.div>
 

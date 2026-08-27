@@ -107,9 +107,9 @@ export default function Navbar() {
                 </span>
               </div>
               <div className="flex items-center gap-4 ml-auto text-slate-500 font-medium">
-                <a href="tel:+919311463901" className="flex items-center gap-1.5 hover:text-blue-600 transition-colors duration-200">
+                <a href="tel:+911204539428" className="flex items-center gap-1.5 hover:text-blue-600 transition-colors duration-200">
                   <Phone size={10} />
-                  <span className="hidden sm:inline">+91-9311463901</span>
+                  <span className="hidden sm:inline">+91 120 453 9428</span>
                 </a>
                 <span className="w-px h-3 bg-slate-200 hidden sm:block" />
                 <a href="mailto:Support@brightoindia.com" className="flex items-center gap-1.5 hover:text-blue-600 transition-colors duration-200">
@@ -316,11 +316,11 @@ export default function Navbar() {
           {/* Desktop CTAs */}
           <div className="hidden lg:flex items-center gap-3">
             <a
-              href="tel:+919311463901"
+              href="tel:+911204539428"
               className="inline-flex items-center gap-2 text-[13px] font-semibold text-slate-700 px-5 py-2.5 rounded-full border border-slate-200 hover:border-blue-300 hover:bg-blue-50/50 hover:text-blue-700 transition-all duration-300"
             >
               <Phone size={14} className="text-orange-500" />
-              +91-9311463901
+              +91 120 453 9428
             </a>
             <button
               onClick={openDemoModal}
