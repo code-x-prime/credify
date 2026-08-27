@@ -253,9 +253,14 @@ export default function Footer() {
                   <div className="w-8 h-8 rounded-full bg-blue-500/10 flex items-center justify-center flex-shrink-0">
                     <Phone size={14} className="text-orange-400" />
                   </div>
-                  <a href="tel:+919311463901" className="text-sm text-white/45 hover:text-orange-400 transition-colors">
-                    +91-9311463901
-                  </a>
+                  <div className="flex flex-col">
+                    <a href="tel:+919311463901" className="text-sm text-white/45 hover:text-orange-400 transition-colors">
+                      +91-9311463901
+                    </a>
+                    <a href="tel:+911204539428" className="text-sm text-white/45 hover:text-orange-400 transition-colors">
+                      +91 120 453 9428
+                    </a>
+                  </div>
                 </div>
                 <div className="flex items-center gap-3">
                   <div className="w-8 h-8 rounded-full bg-blue-500/10 flex items-center justify-center flex-shrink-0">
@@ -361,9 +366,14 @@ export default function Footer() {
                   <div className="w-7 h-7 rounded-full bg-blue-500/10 flex items-center justify-center flex-shrink-0">
                     <Phone size={12} className="text-orange-400" />
                   </div>
-                  <a href="tel:+919311463901" className="text-sm text-white/40 hover:text-orange-400 transition-colors">
-                    +91-9311463901
-                  </a>
+                  <div className="flex flex-col">
+                    <a href="tel:+919311463901" className="text-sm text-white/40 hover:text-orange-400 transition-colors">
+                      +91-9311463901
+                    </a>
+                    <a href="tel:+911204539428" className="text-sm text-white/40 hover:text-orange-400 transition-colors">
+                      +91 120 453 9428
+                    </a>
+                  </div>
                 </div>
                 <div className="flex items-center gap-3">
                   <div className="w-7 h-7 rounded-full bg-blue-500/10 flex items-center justify-center flex-shrink-0">

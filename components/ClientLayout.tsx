@@ -6,6 +6,7 @@ import Footer from '@/components/Footer'
 import FloatingDemoButton from '@/components/FloatingDemoButton'
 import DemoModal from '@/components/DemoModal'
 import ScrollToTop from '@/components/ScrollToTop'
+import WhatsAppButton from '@/components/WhatsAppButton'
 
 export default function ClientLayout({ children }: { children: React.ReactNode }) {
   return (
@@ -16,6 +17,7 @@ export default function ClientLayout({ children }: { children: React.ReactNode }
       <Footer />
       <FloatingDemoButton />
       <DemoModal />
+      <WhatsAppButton />
     </DemoModalProvider>
   )
 }

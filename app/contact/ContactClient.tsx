@@ -97,7 +97,9 @@ export default function ContactClient() {
         email: form.email.trim().toLowerCase(),
         phone: form.phone.trim(),
         subject: `[Credify India] Inquiry for ${form.service}`,
-        message: `Organization: ${form.organization || 'Not Specified'}\nService: ${form.service}\nSource Site: Credify India\n\nMessage:\n${form.message.trim()}`
+        message: `Organization: ${form.organization || 'Not Specified'}\nService: ${form.service}\nSource Site: Credify India\n\nMessage:\n${form.message.trim()}`,
+        source: 'Credify',
+        consent: form.consent ? 'true' : 'false',
       }
 
       const res = await fetch(`${API_BASE_URL}/api/contact`, {
