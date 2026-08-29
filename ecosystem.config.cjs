@@ -2,7 +2,7 @@ module.exports = {
     apps: [
         {
             name: "credify",
-            script: "npm",
+            script: "pnpm",
             args: "start",
             cwd: "/root/credify",
             env: {
