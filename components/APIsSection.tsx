@@ -184,7 +184,7 @@ export default function APIsSection() {
         >
           <div className="relative aspect-[16/9] w-full rounded-2xl overflow-hidden bg-slate-50">
             <Image
-              src="https://pikaso.cdnpk.net/private/production/5048955693/render.png?token=exp=1785888000~hmac=00d742deefce902ebf011d88a816f58ad10b723362382a3c910e2baa8405cb43"
+              src="/images/credify-dashboard-hero.png"
               alt="Credify API Platform - Secure Verification APIs"
               className="w-full h-full object-cover rounded-2xl group-hover:scale-[1.02] transition-transform duration-500"
               width={1200}
