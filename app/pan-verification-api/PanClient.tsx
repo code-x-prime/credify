@@ -142,7 +142,7 @@ export default function PanClient() {
       />
 
       {/* Intro Overview Section */}
-      <section className="py-16 md:py-24 bg-white relative">
+      <section className="py-12 md:py-16 bg-white relative">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
 
@@ -204,7 +204,7 @@ export default function PanClient() {
       </section>
 
       {/* Key Features */}
-      <section className="py-16 md:py-24 bg-slate-50/70 border-y border-slate-200/60">
+      <section className="py-12 md:py-16 bg-slate-50/70 border-y border-slate-200/60">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center max-w-3xl mx-auto mb-16">
             <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-slate-900 mb-4">
@@ -230,7 +230,7 @@ export default function PanClient() {
       </section>
 
       {/* Why Choose Credify India for PAN Verification API? */}
-      <section className="py-16 md:py-24 bg-white">
+      <section className="py-12 md:py-16 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center max-w-3xl mx-auto mb-16">
             <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-slate-900 mb-4">
@@ -256,7 +256,7 @@ export default function PanClient() {
       </section>
 
       {/* How PAN Verification API Works */}
-      <section className="py-16 md:py-24 bg-slate-900 text-white">
+      <section className="py-12 md:py-16 bg-slate-900 text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center max-w-3xl mx-auto mb-16">
             <div className="inline-flex items-center gap-2 px-3 py-1 rounded-md bg-white/10 text-orange-400 text-xs font-bold uppercase tracking-wide mb-3">

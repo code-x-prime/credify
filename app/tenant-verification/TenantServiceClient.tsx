@@ -183,7 +183,7 @@ export default function TenantServiceClient() {
   return (
     <div className="bg-white text-slate-900 overflow-hidden">
       {/* 🌟 CUSTOM LIGHT HERO BANNER */}
-      <section className="relative pt-28 md:pt-36 pb-16 md:pb-24 bg-gradient-to-b from-orange-50/70 via-white to-slate-50/50 border-b border-slate-100">
+      <section className="relative pt-28 md:pt-36 pb-12 md:pb-16 bg-gradient-to-b from-orange-50/70 via-white to-slate-50/50 border-b border-slate-100">
         <div className="absolute top-0 right-0 w-96 h-96 bg-orange-100/40 rounded-full blur-3xl pointer-events-none" />
         <div className="absolute bottom-0 left-0 w-96 h-96 bg-amber-100/30 rounded-full blur-3xl pointer-events-none" />
 
@@ -236,7 +236,7 @@ export default function TenantServiceClient() {
       </section>
 
       {/* About Section */}
-      <section className="py-16 md:py-24 bg-white">
+      <section className="py-12 md:py-16 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
             
@@ -287,7 +287,7 @@ export default function TenantServiceClient() {
       </section>
 
       {/* What Does Our Tenant Verification Include? */}
-      <section className="py-16 md:py-24 bg-slate-50/70 border-y border-slate-200/60">
+      <section className="py-12 md:py-16 bg-slate-50/70 border-y border-slate-200/60">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center max-w-3xl mx-auto mb-16">
             <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-slate-900 mb-4">
@@ -320,7 +320,7 @@ export default function TenantServiceClient() {
       </section>
 
       {/* Why Choose Credify India for Tenant Verification Services? */}
-      <section className="py-16 md:py-24 bg-white">
+      <section className="py-12 md:py-16 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center max-w-3xl mx-auto mb-16">
             <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-slate-900 mb-4">
@@ -349,7 +349,7 @@ export default function TenantServiceClient() {
       </section>
 
       {/* Our Tenant Verification Process */}
-      <section className="py-16 md:py-24 bg-slate-900 text-white">
+      <section className="py-12 md:py-16 bg-slate-900 text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center max-w-3xl mx-auto mb-16">
             <div className="inline-flex items-center gap-2 px-3 py-1 rounded-md bg-white/10 text-orange-400 text-xs font-bold uppercase tracking-wide mb-3">
@@ -378,7 +378,7 @@ export default function TenantServiceClient() {
       </section>
 
       {/* Benefits of Tenant Verification Services */}
-      <section className="py-16 md:py-24 bg-white">
+      <section className="py-12 md:py-16 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center max-w-3xl mx-auto mb-16">
             <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-slate-900 mb-4">

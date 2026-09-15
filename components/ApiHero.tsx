@@ -23,7 +23,7 @@ export default function ApiHero({
   const { openDemoModal } = useDemoModal()
 
   return (
-    <section className="relative pt-28 md:pt-36 pb-16 md:pb-24 bg-gradient-to-b from-slate-900 via-[#001f7d] to-slate-950 text-white overflow-hidden">
+    <section className="relative pt-28 md:pt-36 pb-12 md:pb-16 bg-gradient-to-b from-slate-900 via-[#001f7d] to-slate-950 text-white overflow-hidden">
       {/* Background glowing effects */}
       <div className="absolute top-0 right-1/4 w-96 h-96 bg-blue-500/15 rounded-full blur-3xl pointer-events-none" />
       <div className="absolute bottom-0 left-1/4 w-96 h-96 bg-orange-500/10 rounded-full blur-3xl pointer-events-none" />
