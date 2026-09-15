@@ -55,8 +55,8 @@ const certifications = [
     badgeColor: 'bg-orange-50 text-orange-700 border-orange-200',
   },
   {
-    title: 'SOC 2 Audited',
-    description: 'Our SOC 2-audited operations prove that we focus on protected systems, managed processes, and careful care of client information.',
+    title: 'DPDP Ready',
+    description: 'Our DPDP-ready operations prove that we focus on protected systems, managed processes, and careful care of client information.',
     icon: ShieldCheck,
     badgeColor: 'bg-emerald-50 text-emerald-700 border-emerald-200',
   },
@@ -160,7 +160,7 @@ export default function AboutClient() {
                   {[
                     { label: 'ISO 27001 Certified', status: 'Active' },
                     { label: 'ISO 9001 Certified', status: 'Active' },
-                    { label: 'SOC 2 Audited', status: 'Compliant' },
+                    { label: 'DPDP Ready', status: 'Compliant' },
                     { label: 'Verification Requests', status: 'Millions Processed' },
                   ].map((row, idx) => (
                     <div key={idx} className="flex items-center justify-between p-3 rounded-xl bg-slate-50 text-xs sm:text-sm font-medium">
@@ -207,7 +207,7 @@ export default function AboutClient() {
               </p>
 
               <p className="text-slate-600 leading-relaxed text-sm sm:text-base">
-                Credify India is an ISO 27001-certified, ISO 9001-certified, and SOC 2-audited company that adheres to international standards in protecting data, quality management, and running operations properly. Combined with technology-driven measures, our experienced verification experts work directly with organizations to deliver reliable outcomes, increase hiring confidence, and support future business success.
+                Credify India is an ISO 27001-certified, ISO 9001-certified, and DPDP Ready company that adheres to international standards in protecting data, quality management, and running operations properly. Combined with technology-driven measures, our experienced verification experts work directly with organizations to deliver reliable outcomes, increase hiring confidence, and support future business success.
               </p>
             </div>
 

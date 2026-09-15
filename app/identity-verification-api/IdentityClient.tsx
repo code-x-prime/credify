@@ -63,7 +63,7 @@ const whyChooseUs = [
   },
   {
     title: 'Enterprise Security Standards',
-    description: 'Backed by ISO 27001 Certified, ISO 9001 Certified, and SOC 2 Audited operational practices to safeguard sensitive information.',
+    description: 'Backed by ISO 27001 and ISO 9001 certified operational practices, and DPDP Ready data handling to safeguard sensitive information.',
     icon: '/icons/shield.svg',
   },
   {
@@ -167,7 +167,7 @@ export default function IdentityClient() {
               <div className="p-4 rounded-xl bg-slate-50 border border-slate-200/80 flex items-start gap-4">
                 <img src="/icons/identity-verification-api.svg" alt="Identity Verification" className="w-7 h-7 flex-shrink-0 mt-1" />
                 <div className="text-xs sm:text-sm text-slate-600">
-                  <strong className="text-slate-900 block font-semibold mb-0.5">ISO 27001, ISO 9001 & SOC 2 Audited</strong>
+                  <strong className="text-slate-900 block font-semibold mb-0.5">ISO 27001, ISO 9001 Certified & DPDP Ready</strong>
                   Our operations follow strict international security and compliance frameworks to safeguard every identity verification transaction.
                 </div>
               </div>

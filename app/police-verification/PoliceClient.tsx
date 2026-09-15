@@ -190,7 +190,7 @@ const policeFaqs: FAQItem[] = [
   },
   {
     q: 'How does Credify India ensure secure verification?',
-    a: 'Credify India is an ISO 27001-certified, ISO 9001-certified, and SOC 2-audited company, which means it has been verified to handle information securely and deliver reliable results.',
+    a: 'Credify India is an ISO 27001-certified, ISO 9001-certified, and DPDP Ready company, which means it has been verified to handle information securely and deliver reliable results.',
   },
 ]
 
@@ -271,13 +271,13 @@ export default function PoliceClient() {
               </p>
 
               <p className="text-slate-600 leading-relaxed text-sm sm:text-base">
-                As an ISO 27001 Certified, ISO 9001 Certified, and SOC 2 Audited company, we are well aware of the importance of aligning with high standards for information security, quality management, and smooth workflows. Our police verification services enable businesses to become more confident in their hiring process, have higher employee integrity and a smoother onboarding procedure.
+                As an ISO 27001 and ISO 9001 certified, and DPDP Ready company, we are well aware of the importance of aligning with high standards for information security, quality management, and smooth workflows. Our police verification services enable businesses to become more confident in their hiring process, have higher employee integrity and a smoother onboarding procedure.
               </p>
 
               <div className="p-4 rounded-xl bg-slate-50 border border-slate-200/80 flex items-start gap-4">
                 <img src="/icons/police-verification.svg" alt="Police Verification" className="w-7 h-7 flex-shrink-0 mt-1" />
                 <div className="text-xs sm:text-sm text-slate-600">
-                  <strong className="text-slate-900 block font-semibold mb-0.5">ISO 27001, ISO 9001 & SOC 2 Audited</strong>
+                  <strong className="text-slate-900 block font-semibold mb-0.5">ISO 27001, ISO 9001 Certified & DPDP Ready</strong>
                   Aligning with international standards for information security, quality management, and smooth operations.
                 </div>
               </div>

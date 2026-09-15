@@ -21,7 +21,7 @@ const fadeUp = {
 const certifications = [
   { icon: '/icons/certified-for-security-quality.svg', title: 'ISO 27001', subtitle: 'Information Security', color: 'text-[#001f7d]', bg: 'bg-blue-50' },
   { icon: '/icons/certified-for-security-quality.svg', title: 'ISO 9001', subtitle: 'Quality Management', color: 'text-[#001f7d]', bg: 'bg-blue-50' },
-  { icon: '/icons/certified-for-security-quality.svg', title: 'SOC 2 Audited', subtitle: 'Security & Compliance', color: 'text-[#001f7d]', bg: 'bg-blue-50' },
+  { icon: '/icons/certified-for-security-quality.svg', title: 'DPDP Ready', subtitle: 'Security & Compliance', color: 'text-[#001f7d]', bg: 'bg-blue-50' },
 ]
 
 const stats = [
@@ -31,7 +31,7 @@ const stats = [
 ]
 
 const highlights = [
-  'ISO 27001 & ISO 9001 certified, SOC 2 audited',
+  'ISO 27001 & ISO 9001 certified, DPDP Ready',
   'Technology-driven verification workflows',
   'Experienced industry professionals',
   'Tailored solutions for every sector',
@@ -133,7 +133,7 @@ export default function About() {
                 className="absolute top-[96px] -left-6 sm:-left-12 z-20 bg-white rounded-md px-4 py-3 shadow-[0_14px_40px_rgba(0,0,0,0.1)] border border-slate-100"
               >
                 <div className="flex flex-col gap-2">
-                  {['ISO 27001', 'ISO 9001', 'SOC 2'].map((badge) => (
+                  {['ISO 27001', 'ISO 9001', 'DPDP Ready'].map((badge) => (
                     <div key={badge} className="flex items-center gap-2">
                       <div className="w-6 h-6 rounded-md bg-blue-50 flex items-center justify-center">
                         <img src="/icons/certified-for-security-quality.svg" alt="Shield" className="w-[18px] h-[18px] object-contain" />
@@ -171,7 +171,7 @@ export default function About() {
               Since 2015, Credify India has been a reliable name in Background Verification Services. We help organizations make smart hiring and business decisions by thoroughly checking key details. Our solutions are designed to verify critical data while ensuring security and compliance with standards.
             </p>
             <p className="text-slate-500 text-sm sm:text-base leading-relaxed">
-              As an ISO 27001-certified, ISO 9001-certified, and SOC 2-audited company, we are committed to information security, quality management, and operational excellence. Our experienced verification professionals leverage technology-driven workflows to deliver reliable verification solutions tailored to the unique requirements of organizations across diverse industries.
+              As an ISO 27001-certified, ISO 9001-certified, and DPDP Ready company, we are committed to information security, quality management, and operational excellence. Our experienced verification professionals leverage technology-driven workflows to deliver reliable verification solutions tailored to the unique requirements of organizations across diverse industries.
             </p>
             <p className="text-slate-500 text-sm sm:text-base leading-relaxed">
               Beyond comprehensive background verification services, Credify India also offers verification APIs that enable organizations to automate identity verification, KYC, compliance, onboarding, and business verification directly within their applications. Our technology platform helps businesses reduce manual effort, improve operational efficiency, and accelerate decision-making through secure API integrations.

@@ -58,7 +58,7 @@ const whyChooseUs = [
   },
   {
     title: 'Trusted Compliance Framework',
-    description: 'Built on ISO 27001 Certified, ISO 9001 Certified, and SOC 2 Audited operational practices to support secure verification processes.',
+    description: 'Built on ISO 27001 and ISO 9001 certified operational practices, and DPDP Ready data handling to support secure verification processes.',
     icon: '/icons/shield.svg',
   },
   {
@@ -121,7 +121,7 @@ const gstFaqs: FAQItem[] = [
   },
   {
     q: 'Is the API secure?',
-    a: 'Yes. Credify India’s APIs rest on ISO 27001 Certified, ISO 9001 Certified, and SOC 2 Audited operational standards that keep verification workflows secure and reliable.',
+    a: 'Yes. Credify India’s APIs rest on ISO 27001 and ISO 9001 certified operational standards, and DPDP Ready data handling that keeps verification workflows secure and reliable.',
   },
   {
     q: 'Why choose Credify India’s GST Verification API?',
@@ -167,8 +167,8 @@ export default function GstClient() {
               <div className="p-4 rounded-xl bg-slate-50 border border-slate-200/80 flex items-start gap-4">
                 <img src="/icons/gst-verification-api.svg" alt="GST Verification" className="w-7 h-7 flex-shrink-0 mt-1" />
                 <div className="text-xs sm:text-sm text-slate-600">
-                  <strong className="text-slate-900 block font-semibold mb-0.5">ISO 27001, ISO 9001 & SOC 2 Audited</strong>
-                  Credify India is an ISO 27001 Certified, ISO 9001 Certified, and SOC 2 Audited company. Based on clear international standards of information security, quality management, and everyday work, we provide businesses with a trusted verification platform.
+                  <strong className="text-slate-900 block font-semibold mb-0.5">ISO 27001, ISO 9001 Certified & DPDP Ready</strong>
+                  Credify India is an ISO 27001 and ISO 9001 certified, and DPDP Ready company. Based on clear international standards of information security, quality management, and everyday work, we provide businesses with a trusted verification platform.
                 </div>
               </div>
             </div>

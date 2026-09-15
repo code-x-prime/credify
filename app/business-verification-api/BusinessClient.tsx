@@ -68,7 +68,7 @@ const whyChooseUs = [
   },
   {
     title: 'Trusted Security & Compliance',
-    description: 'Backed by ISO 27001 Certified, ISO 9001 Certified, and SOC 2 Audited operational practices to ensure secure and reliable verification.',
+    description: 'Backed by ISO 27001 and ISO 9001 certified operational practices, and DPDP Ready data handling to ensure secure and reliable verification.',
     icon: '/icons/shield.svg',
   },
   {
@@ -121,7 +121,7 @@ const businessFaqs: FAQItem[] = [
   },
   {
     q: 'Is the Business Verification API secure?',
-    a: "Yes. Credify India’s API platform follows ISO 27001 Certified, ISO 9001 Certified, and SOC 2 Audited operational standards to support secure, reliable, and enterprise-grade verification.",
+    a: "Yes. Credify India’s API platform follows ISO 27001 and ISO 9001 certified operational standards, and DPDP Ready data handling to support secure, reliable, and enterprise-grade verification.",
   },
   {
     q: "Why choose Credify India’s Business Verification API?",
@@ -167,8 +167,8 @@ export default function BusinessClient() {
               <div className="p-4 rounded-xl bg-slate-50 border border-slate-200/80 flex items-start gap-4">
                 <img src="/icons/business-verification-api.svg" alt="Business Verification" className="w-7 h-7 flex-shrink-0 mt-1" />
                 <div className="text-xs sm:text-sm text-slate-600">
-                  <strong className="text-slate-900 block font-semibold mb-0.5">ISO 27001, ISO 9001 & SOC 2 Audited</strong>
-                  Credify India is an ISO 27001-certified, ISO 9001-certified, and SOC 2 Audited company adhering to carefully established information security, quality management, and business standards aligned with international standards.
+                  <strong className="text-slate-900 block font-semibold mb-0.5">ISO 27001, ISO 9001 Certified & DPDP Ready</strong>
+                  Credify India is an ISO 27001-certified, ISO 9001-certified, and DPDP Ready company adhering to carefully established information security, quality management, and business standards aligned with international standards.
                 </div>
               </div>
             </div>

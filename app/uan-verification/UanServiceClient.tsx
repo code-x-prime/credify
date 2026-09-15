@@ -180,7 +180,7 @@ const uanFaqs: FAQItem[] = [
   },
   {
     q: 'How does Credify India ensure secure verification?',
-    a: 'As an ISO 27001-certified, ISO 9001-certified, and SOC 2 Audited company, Credify India follows established practices that protect information and support responsible verification.',
+    a: 'As an ISO 27001-certified, ISO 9001-certified, and DPDP Ready company, Credify India follows established practices that protect information and support responsible verification.',
   },
 ]
 
@@ -261,13 +261,13 @@ export default function UanServiceClient() {
               </p>
 
               <p className="text-slate-600 leading-relaxed text-sm sm:text-base">
-                Since starting in 2015, we have brought together skilled verification experts, consistent working methods, and tech-supported processes to provide dependable solutions that match each business’s needs. As an ISO 27001-certified, ISO 9001-certified, and SOC 2-audited company, we stay dedicated to keeping information safe, managing quality well, and handling verifications responsibly.
+                Since starting in 2015, we have brought together skilled verification experts, consistent working methods, and tech-supported processes to provide dependable solutions that match each business’s needs. As an ISO 27001-certified, ISO 9001-certified, and DPDP Ready company, we stay dedicated to keeping information safe, managing quality well, and handling verifications responsibly.
               </p>
 
               <div className="p-4 rounded-xl bg-slate-50 border border-slate-200/80 flex items-start gap-4">
                 <img src="/icons/uan-service.svg" alt="UAN Verification Service" className="w-7 h-7 flex-shrink-0 mt-1" />
                 <div className="text-xs sm:text-sm text-slate-600">
-                  <strong className="text-slate-900 block font-semibold mb-0.5">ISO 27001, ISO 9001 & SOC 2 Audited</strong>
+                  <strong className="text-slate-900 block font-semibold mb-0.5">ISO 27001, ISO 9001 Certified & DPDP Ready</strong>
                   Giving employers more assurance during hiring while following organized workforce-checking practices.
                 </div>
               </div>

@@ -181,7 +181,7 @@ const creditFaqs: FAQItem[] = [
   },
   {
     q: 'How does Credify India protect confidential information?',
-    a: 'Credify India is an ISO 27001-certified, ISO 9001-certified, and SOC 2 Audited company, which has established processes to ensure information remains secure and responsible operations are conducted.',
+    a: 'Credify India is an ISO 27001-certified, ISO 9001-certified, and DPDP Ready company, which has established processes to ensure information remains secure and responsible operations are conducted.',
   },
 ]
 
@@ -262,13 +262,13 @@ export default function CreditCheckClient() {
               </p>
 
               <p className="text-slate-600 leading-relaxed text-sm sm:text-base">
-                We&apos;re an ISO 27001- and ISO 9001-certified company, and we&apos;re SOC 2-audited, which means we&apos;re committed to information security, quality standards, and smooth operations. Our employee credit check services give companies more confidence during recruitment while following careful and proper hiring steps.
+                We&apos;re an ISO 27001- and ISO 9001-certified company, and we follow DPDP Ready data practices, which means we&apos;re committed to information security, quality standards, and smooth operations. Our employee credit check services give companies more confidence during recruitment while following careful and proper hiring steps.
               </p>
 
               <div className="p-4 rounded-xl bg-slate-50 border border-slate-200/80 flex items-start gap-4">
                 <img src="/icons/credit-check-verification.svg" alt="Credit Check Verification" className="w-7 h-7 flex-shrink-0 mt-1" />
                 <div className="text-xs sm:text-sm text-slate-600">
-                  <strong className="text-slate-900 block font-semibold mb-0.5">ISO 27001, ISO 9001 & SOC 2 Audited Company</strong>
+                  <strong className="text-slate-900 block font-semibold mb-0.5">ISO 27001, ISO 9001 Certified & DPDP Ready</strong>
                   Committed to information security, quality standards, and smooth operations.
                 </div>
               </div>

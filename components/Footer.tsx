@@ -47,7 +47,7 @@ const servicesList = [
   { label: 'GST Verification API', href: '/gst-verification-api' },
 ]
 
-const certBadges = ['ISO 27001', 'ISO 9001', 'SOC 2']
+const certBadges = ['ISO 27001', 'ISO 9001', 'DPDP Ready']
 
 function LinkedinIcon({ size = 16 }: { size?: number }) {
   return (

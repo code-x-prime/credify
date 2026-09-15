@@ -52,7 +52,7 @@ const keyFeatures = [
 const whyChooseUs = [
   {
     title: 'Enterprise-Grade Security',
-    description: 'Our APIs are built on practices that are based on ISO 27001 information security standards and SOC 2 audited operational controls.',
+    description: 'Our APIs are built on practices that are based on ISO 27001 information security standards and DPDP Ready operational controls.',
     icon: '/icons/lock.svg',
   },
   {
@@ -120,7 +120,7 @@ const panFaqs: FAQItem[] = [
   },
   {
     q: 'Is the API secure?',
-    a: "Yes. Credify India’s APIs rest on ISO 27001 Certified, ISO 9001 Certified, and SOC 2 Audited operational practices that help organizations keep verification workflows secure.",
+    a: "Yes. Credify India’s APIs rest on ISO 27001 and ISO 9001 certified operational practices, and DPDP Ready data handling that helps organizations keep verification workflows secure.",
   },
   {
     q: "Why choose Credify India’s PAN Verification API?",
@@ -166,7 +166,7 @@ export default function PanClient() {
               <div className="p-4 rounded-xl bg-slate-50 border border-slate-200/80 flex items-start gap-4">
                 <img src="/icons/pan-verification-api.svg" alt="PAN Verification" className="w-7 h-7 flex-shrink-0 mt-1" />
                 <div className="text-xs sm:text-sm text-slate-600">
-                  <strong className="text-slate-900 block font-semibold mb-0.5">ISO 27001, ISO 9001 & SOC 2 Audited</strong>
+                  <strong className="text-slate-900 block font-semibold mb-0.5">ISO 27001, ISO 9001 Certified & DPDP Ready</strong>
                   Businesses know they can trust us with each and every verification request, as we adhere strictly to international standards for information security, quality management, and everyday operations.
                 </div>
               </div>

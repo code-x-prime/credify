@@ -181,7 +181,7 @@ const vendorFaqs: FAQItem[] = [
   },
   {
     q: 'How does Credify India protect vendor information?',
-    a: 'Credify India is an ISO 27001-certified, ISO 9001-certified, and SOC 2 Audited company that follows standard practices that ensure information security and responsible verification.',
+    a: 'Credify India is an ISO 27001-certified, ISO 9001-certified, and DPDP Ready company that follows standard practices that ensure information security and responsible verification.',
   },
 ]
 
@@ -262,13 +262,13 @@ export default function VendorServiceClient() {
               </p>
 
               <p className="text-slate-600 leading-relaxed text-sm sm:text-base">
-                We are an ISO 27001 Certified, ISO 9001 Certified, and SOC 2 Audited company and put information security, quality, and high-level operations at the top of our list. Our vendor verification services empower organizations to make informed purchasing decisions, enhance vendor management, and ensure responsible vendor onboarding.
+                We are an ISO 27001 and ISO 9001 certified, and DPDP Ready company and put information security, quality, and high-level operations at the top of our list. Our vendor verification services empower organizations to make informed purchasing decisions, enhance vendor management, and ensure responsible vendor onboarding.
               </p>
 
               <div className="p-4 rounded-xl bg-slate-50 border border-slate-200/80 flex items-start gap-4">
                 <img src="/icons/vendor-verification.svg" alt="Vendor Verification" className="w-7 h-7 flex-shrink-0 mt-1" />
                 <div className="text-xs sm:text-sm text-slate-600">
-                  <strong className="text-slate-900 block font-semibold mb-0.5">ISO 27001, ISO 9001 & SOC 2 Audited</strong>
+                  <strong className="text-slate-900 block font-semibold mb-0.5">ISO 27001, ISO 9001 Certified & DPDP Ready</strong>
                   Empowering organizations to make informed purchasing decisions and ensure responsible vendor onboarding.
                 </div>
               </div>

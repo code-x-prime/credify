@@ -76,7 +76,7 @@ const whyChooseUs = [
   },
   {
     title: 'Trusted Security Standards',
-    description: 'Backed by ISO 27001 Certified, ISO 9001 Certified, and SOC 2 Audited operational practices.',
+    description: 'Backed by ISO 27001 and ISO 9001 certified operational practices, and DPDP Ready data handling.',
     icon: ShieldCheck,
   },
   {
@@ -129,7 +129,7 @@ const riskFaqs: FAQItem[] = [
   },
   {
     q: 'Is the Risk Intelligence API secure?',
-    a: 'Yes. Credify India’s API platform follows ISO 27001 Certified, ISO 9001 Certified, and SOC 2 Audited operational standards to support secure data handling and reliable verification workflows.',
+    a: 'Yes. Credify India’s API platform follows ISO 27001 and ISO 9001 certified operational standards, and DPDP Ready data handling to support secure data handling and reliable verification workflows.',
   },
   {
     q: 'Why choose Credify India’s Risk Intelligence API?',
@@ -175,7 +175,7 @@ export default function RiskIntelligenceClient() {
               <div className="p-4 rounded-xl bg-slate-50 border border-slate-200/80 flex items-start gap-4">
                 <ShieldCheck size={28} className="text-[#001f7d] flex-shrink-0 mt-1" />
                 <div className="text-xs sm:text-sm text-slate-600">
-                  <strong className="text-slate-900 block font-semibold mb-0.5">ISO 27001, ISO 9001 & SOC 2 Audited</strong>
+                  <strong className="text-slate-900 block font-semibold mb-0.5">ISO 27001, ISO 9001 Certified & DPDP Ready</strong>
                   Adhering to recognised standards for information security, quality management, and operational excellence.
                 </div>
               </div>

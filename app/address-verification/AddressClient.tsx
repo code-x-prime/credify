@@ -271,13 +271,13 @@ export default function AddressClient() {
               </p>
 
               <p className="text-slate-600 leading-relaxed text-sm sm:text-base">
-                Our ISO 27001-certified, ISO 9001-certified, and SOC 2-audited company follows strong information security controls, quality management, and smooth operations. Our address verification services can help companies boost hiring confidence, establish a reliable workforce, and streamline the hiring process with trusted methods.
+                Our ISO 27001-certified, ISO 9001-certified, and DPDP Ready company follows strong information security controls, quality management, and smooth operations. Our address verification services can help companies boost hiring confidence, establish a reliable workforce, and streamline the hiring process with trusted methods.
               </p>
 
               <div className="p-4 rounded-xl bg-slate-50 border border-slate-200/80 flex items-start gap-4">
                 <img src="/icons/address-verification.svg" alt="Address Verification" className="w-7 h-7 flex-shrink-0 mt-1" />
                 <div className="text-xs sm:text-sm text-slate-600">
-                  <strong className="text-slate-900 block font-semibold mb-0.5">ISO 27001, ISO 9001 & SOC 2 Audited</strong>
+                  <strong className="text-slate-900 block font-semibold mb-0.5">ISO 27001, ISO 9001 Certified & DPDP Ready</strong>
                   Maintaining strong information security controls, quality management, and smooth operational execution.
                 </div>
               </div>

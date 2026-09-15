@@ -182,7 +182,7 @@ const docFaqs: FAQItem[] = [
   },
   {
     q: 'How does Credify India protect sensitive documents?',
-    a: 'Credify India is an ISO 27001-certified, ISO 9001-certified, and SOC 2 Audited company that uses tried-and-proven methods to ensure document security and responsible verification.',
+    a: 'Credify India is an ISO 27001-certified, ISO 9001-certified, and DPDP Ready company that uses tried-and-proven methods to ensure document security and responsible verification.',
   },
 ]
 
@@ -259,7 +259,7 @@ export default function DocServiceClient() {
               </h2>
 
               <p className="text-slate-600 leading-relaxed text-sm sm:text-base">
-                Credify India is an ISO 27001, ISO 9001-certified, and SOC 2-audited company that delivers reliable Document Verification Services that help organizations confirm the authenticity of key documents used during hiring, onboarding, and due diligence.
+                Credify India is an ISO 27001, ISO 9001-certified, and DPDP Ready company that delivers reliable Document Verification Services that help organizations confirm the authenticity of key documents used during hiring, onboarding, and due diligence.
               </p>
 
               <p className="text-slate-600 leading-relaxed text-sm sm:text-base">
@@ -269,7 +269,7 @@ export default function DocServiceClient() {
               <div className="p-4 rounded-xl bg-slate-50 border border-slate-200/80 flex items-start gap-4">
                 <img src="/icons/document-verification.svg" alt="Document Verification" className="w-7 h-7 flex-shrink-0 mt-1" />
                 <div className="text-xs sm:text-sm text-slate-600">
-                  <strong className="text-slate-900 block font-semibold mb-0.5">ISO 27001, ISO 9001 & SOC 2 Audited</strong>
+                  <strong className="text-slate-900 block font-semibold mb-0.5">ISO 27001, ISO 9001 Certified & DPDP Ready</strong>
                   Aligning with every standard of information security, quality control, and seamless operations.
                 </div>
               </div>

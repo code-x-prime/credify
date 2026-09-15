@@ -18,12 +18,12 @@ const heroFeatures = [
   {
     icon: '/icons/certified-for-security-quality.svg',
     title: 'Certified for Security & Quality',
-    description: 'Our commitment to safeguarding information and delivering high-quality services is demonstrated by ISO 27001 and ISO 9001 certifications and our SOC 2 audit.',
+    description: 'Our commitment to safeguarding information and delivering high-quality services is demonstrated by our ISO 27001 and ISO 9001 certifications and our DPDP-ready data practices.',
     color: 'text-purple-600',
     bg: 'bg-purple-50',
     accent: 'from-purple-500 to-violet-600',
-    stat: 'SOC 2',
-    statLabel: 'audited',
+    stat: 'DPDP',
+    statLabel: 'ready',
     statIcon: '★',
   },
 ]
@@ -64,7 +64,7 @@ const gridFeatures = [
   {
     icon: '/icons/certified-for-security-quality.svg',
     title: 'Certified for Security & Quality',
-    description: 'Our commitment to safeguarding information, delivering high-quality services, and operating in a trustworthy manner is demonstrated by our ISO 27001 and ISO 9001 certifications and our SOC 2 audit.',
+    description: 'Our commitment to safeguarding information, delivering high-quality services, and operating in a trustworthy manner is demonstrated by our ISO 27001 and ISO 9001 certifications and our DPDP-ready data practices.',
     color: 'text-purple-600',
     bg: 'bg-purple-50',
     accentLine: 'bg-purple-400',

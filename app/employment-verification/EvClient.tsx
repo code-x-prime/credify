@@ -269,13 +269,13 @@ export default function EvClient() {
               </p>
 
               <p className="text-slate-600 leading-relaxed text-sm sm:text-base">
-                As an ISO 27001-certified, ISO 9001-certified, and SOC 2-audited company, we maintain a strong commitment to information security, quality management, and operational excellence. Our employment verification solutions are designed to support confident hiring, improve recruitment efficiency, and help employers make informed workforce decisions.
+                As an ISO 27001-certified, ISO 9001-certified, and DPDP Ready company, we maintain a strong commitment to information security, quality management, and operational excellence. Our employment verification solutions are designed to support confident hiring, improve recruitment efficiency, and help employers make informed workforce decisions.
               </p>
 
               <div className="p-4 rounded-xl bg-slate-50 border border-slate-200/80 flex items-start gap-4">
                 <img src="/icons/employment-verification.svg" alt="Employment Verification" className="w-7 h-7 flex-shrink-0 mt-1" />
                 <div className="text-xs sm:text-sm text-slate-600">
-                  <strong className="text-slate-900 block font-semibold mb-0.5">ISO 27001, ISO 9001 & SOC 2 Audited</strong>
+                  <strong className="text-slate-900 block font-semibold mb-0.5">ISO 27001, ISO 9001 Certified & DPDP Ready</strong>
                   Maintaining international standards in information security, quality management, and everyday operations.
                 </div>
               </div>

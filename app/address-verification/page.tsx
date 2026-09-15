@@ -4,7 +4,7 @@ import AddressClient from './AddressClient'
 export const metadata: Metadata = {
   title: 'Address Verification Services — Credify India',
   description:
-    'Verify residential addresses with confidence through Credify India’s address verification services. ISO 27001, ISO 9001 certified and SOC 2 audited partner.',
+    'Verify residential addresses with confidence through Credify India’s address verification services. ISO 27001, ISO 9001 certified and DPDP Ready partner.',
   alternates: {
     canonical: '/address-verification',
   },

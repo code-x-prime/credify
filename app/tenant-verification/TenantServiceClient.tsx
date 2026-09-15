@@ -173,7 +173,7 @@ const tenantFaqs: FAQItem[] = [
   },
   {
     q: 'How does Credify India protect tenant information?',
-    a: 'As an ISO 27001-certified, ISO 9001-certified, and SOC 2 Audited company, Credify India follows set practices to handle information securely and run responsible verification.',
+    a: 'As an ISO 27001-certified, ISO 9001-certified, and DPDP Ready company, Credify India follows set practices to handle information securely and run responsible verification.',
   },
 ]
 
@@ -254,13 +254,13 @@ export default function TenantServiceClient() {
               </p>
 
               <p className="text-slate-600 leading-relaxed text-sm sm:text-base">
-                As an ISO 27001-certified, ISO 9001-certified, and SOC 2 Audited company, we maintain high standards of information security, quality management, and operational excellence. Our tenant verification services help simplify rental screening, strengthen trust, and support informed tenancy decisions.
+                As an ISO 27001-certified, ISO 9001-certified, and DPDP Ready company, we maintain high standards of information security, quality management, and operational excellence. Our tenant verification services help simplify rental screening, strengthen trust, and support informed tenancy decisions.
               </p>
 
               <div className="p-4 rounded-xl bg-slate-50 border border-slate-200/80 flex items-start gap-4">
                 <img src="/icons/tenant-verification.svg" alt="Tenant Verification" className="w-7 h-7 flex-shrink-0 mt-1" />
                 <div className="text-xs sm:text-sm text-slate-600">
-                  <strong className="text-slate-900 block font-semibold mb-0.5">ISO 27001, ISO 9001 & SOC 2 Audited</strong>
+                  <strong className="text-slate-900 block font-semibold mb-0.5">ISO 27001, ISO 9001 Certified & DPDP Ready</strong>
                   Maintaining high standards of information security, quality management, and operational excellence.
                 </div>
               </div>

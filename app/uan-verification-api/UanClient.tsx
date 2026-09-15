@@ -53,7 +53,7 @@ const keyFeatures = [
 const whyChooseUs = [
   {
     title: 'Certified for Security & Quality',
-    description: 'Our API platform rests on ISO 27001 Certification, ISO 9001 Certification, and SOC 2 Audited operational practices for secure and dependable verification services.',
+    description: 'Our API platform rests on ISO 27001 and ISO 9001 certified operational practices, and DPDP Ready data handling for secure and dependable verification services.',
     icon: '/icons/shield.svg',
   },
   {
@@ -121,7 +121,7 @@ const uanFaqs: FAQItem[] = [
   },
   {
     q: 'Is the UAN Verification API secure?',
-    a: 'Yes. Credify India’s API platform follows ISO 27001-certified, ISO 9001 Certified, and SOC 2 Audited operational standards to help protect sensitive employee information and support secure verification workflows.',
+    a: 'Yes. Credify India’s API platform follows ISO 27001 and ISO 9001 certified operational standards, and DPDP Ready data handling to help protect sensitive employee information and support secure verification workflows.',
   },
   {
     q: 'Why choose Credify India’s UAN Verification API?',
@@ -167,8 +167,8 @@ export default function UanClient() {
               <div className="p-4 rounded-xl bg-slate-50 border border-slate-200/80 flex items-start gap-4">
                 <img src="/icons/uan-verification-api.svg" alt="UAN Verification" className="w-7 h-7 flex-shrink-0 mt-1" />
                 <div className="text-xs sm:text-sm text-slate-600">
-                  <strong className="text-slate-900 block font-semibold mb-0.5">ISO 27001, ISO 9001 & SOC 2 Audited</strong>
-                  Credify India is ISO 27001 Certified, ISO 9001 Certified and SOC 2 Audited. We adhere to clear information security, quality management, and everyday treatment standards set by the international community.
+                  <strong className="text-slate-900 block font-semibold mb-0.5">ISO 27001, ISO 9001 Certified & DPDP Ready</strong>
+                  Credify India is ISO 27001 and ISO 9001 certified, and DPDP Ready. We adhere to clear information security, quality management, and everyday treatment standards set by the international community.
                 </div>
               </div>
             </div>

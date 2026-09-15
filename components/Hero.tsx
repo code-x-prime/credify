@@ -117,7 +117,7 @@ export default function Hero() {
             {[
               { icon: '/icons/certified-for-security-quality.svg', label: 'ISO 27001' },
               { icon: '/icons/certified-for-security-quality.svg', label: 'ISO 9001' },
-              { icon: '/icons/certified-for-security-quality.svg', label: 'SOC 2 Audited' },
+              { icon: '/icons/certified-for-security-quality.svg', label: 'DPDP Ready' },
             ].map((badge) => (
               <div
                 key={badge.label}

@@ -81,7 +81,7 @@ const whyChooseUs = [
   },
   {
     title: 'Enterprise Security Standards',
-    description: 'Backed by ISO 27001 Certified, ISO 9001 Certified, and SOC 2 Audited operational practices for secure biometric verification.',
+    description: 'Backed by ISO 27001 and ISO 9001 certified operational practices, and DPDP Ready data handling for secure biometric verification.',
     icon: ShieldCheck,
   },
   {
@@ -134,7 +134,7 @@ const faceMatchFaqs: FAQItem[] = [
   },
   {
     q: 'Is biometric data handled securely?',
-    a: 'Credify India’s platform follows ISO 27001 Certified, ISO 9001 Certified, and SOC 2 Audited operational practices to support secure handling of verification data and enterprise-grade information security.',
+    a: 'Credify India’s platform follows ISO 27001 and ISO 9001 certified operational practices, and DPDP Ready data handling to support secure handling of verification data and enterprise-grade information security.',
   },
   {
     q: 'Why choose Credify India’s Face Match API?',
@@ -180,7 +180,7 @@ export default function FaceMatchClient() {
               <div className="p-4 rounded-xl bg-slate-50 border border-slate-200/80 flex items-start gap-4">
                 <ShieldCheck size={28} className="text-[#001f7d] flex-shrink-0 mt-1" />
                 <div className="text-xs sm:text-sm text-slate-600">
-                  <strong className="text-slate-900 block font-semibold mb-0.5">ISO 27001, ISO 9001 & SOC 2 Audited</strong>
+                  <strong className="text-slate-900 block font-semibold mb-0.5">ISO 27001, ISO 9001 Certified & DPDP Ready</strong>
                   Adheres to high information security, quality management, and operational excellence norms.
                 </div>
               </div>

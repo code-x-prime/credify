@@ -181,7 +181,7 @@ const driverFaqs: FAQItem[] = [
   },
   {
     q: 'How does Credify India protect verification information?',
-    a: 'As an ISO 27001-certified, ISO 9001-certified, and SOC 2 Audited company, Credify India follows standard practices to handle information safely and run responsible verification.',
+    a: 'As an ISO 27001-certified, ISO 9001-certified, and DPDP Ready company, Credify India follows standard practices to handle information safely and run responsible verification.',
   },
 ]
 
@@ -262,13 +262,13 @@ export default function DriverServiceClient() {
               </p>
 
               <p className="text-slate-600 leading-relaxed text-sm sm:text-base">
-                We are an ISO 27001-certified, ISO 9001-certified, and SOC 2-audited company, which guarantees high standards in data security, quality handling, and smooth operations. Our driver verification services enable businesses to enhance workforce screening, ensure adherence to operational rules, and make informed hiring decisions.
+                We are an ISO 27001-certified, ISO 9001-certified, and DPDP Ready company, which guarantees high standards in data security, quality handling, and smooth operations. Our driver verification services enable businesses to enhance workforce screening, ensure adherence to operational rules, and make informed hiring decisions.
               </p>
 
               <div className="p-4 rounded-xl bg-slate-50 border border-slate-200/80 flex items-start gap-4">
                 <img src="/icons/driver-verification.svg" alt="Driver Verification" className="w-7 h-7 flex-shrink-0 mt-1" />
                 <div className="text-xs sm:text-sm text-slate-600">
-                  <strong className="text-slate-900 block font-semibold mb-0.5">ISO 27001, ISO 9001 & SOC 2 Audited</strong>
+                  <strong className="text-slate-900 block font-semibold mb-0.5">ISO 27001, ISO 9001 Certified & DPDP Ready</strong>
                   Guaranteeing high standards in data security, quality handling, and smooth fleet operations.
                 </div>
               </div>

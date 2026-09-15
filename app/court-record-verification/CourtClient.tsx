@@ -191,7 +191,7 @@ const courtFaqs: FAQItem[] = [
   },
   {
     q: 'How does Credify India deliver secure verification services?',
-    a: 'As an ISO 27001-certified, ISO 9001-certified, and SOC 2 Audited company, Credify India follows standard verification steps designed for secure information handling and reliable results.',
+    a: 'As an ISO 27001-certified, ISO 9001-certified, and DPDP Ready company, Credify India follows standard verification steps designed for secure information handling and reliable results.',
   },
 ]
 
@@ -272,13 +272,13 @@ export default function CourtClient() {
               </p>
 
               <p className="text-slate-600 leading-relaxed text-sm sm:text-base">
-                An ISO 27001 Certified, ISO 9001 Certified, and SOC 2 Audited company, we strive to meet high standards for information security, quality management, and smooth operations. Our court record verification services help companies enhance their hiring confidence, protect the integrity of their workforce, and make better hiring decisions.
+                An ISO 27001 and ISO 9001 certified, and DPDP Ready company, we strive to meet high standards for information security, quality management, and smooth operations. Our court record verification services help companies enhance their hiring confidence, protect the integrity of their workforce, and make better hiring decisions.
               </p>
 
               <div className="p-4 rounded-xl bg-slate-50 border border-slate-200/80 flex items-start gap-4">
                 <img src="/icons/court-record-verification.svg" alt="Court Record Verification" className="w-7 h-7 flex-shrink-0 mt-1" />
                 <div className="text-xs sm:text-sm text-slate-600">
-                  <strong className="text-slate-900 block font-semibold mb-0.5">ISO 27001, ISO 9001 & SOC 2 Audited</strong>
+                  <strong className="text-slate-900 block font-semibold mb-0.5">ISO 27001, ISO 9001 Certified & DPDP Ready</strong>
                   Maintaining international standards in information security, quality management, and everyday operations.
                 </div>
               </div>
