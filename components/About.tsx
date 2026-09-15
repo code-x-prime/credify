@@ -27,11 +27,11 @@ const certifications = [
 const stats = [
   { value: '10M+', label: 'Checks Completed' },
   { value: '9+', label: 'Years of Trust' },
-  { value: '500+', label: 'Enterprise Clients' },
+  { value: '50+', label: 'Enterprise Clients' },
 ]
 
 const highlights = [
-  'ISO 27001, ISO 9001 & SOC 2 certified',
+  'ISO 27001 & ISO 9001 certified, SOC 2 audited',
   'Technology-driven verification workflows',
   'Experienced industry professionals',
   'Tailored solutions for every sector',

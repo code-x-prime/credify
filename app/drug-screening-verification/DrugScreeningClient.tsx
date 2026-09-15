@@ -68,7 +68,7 @@ const includesList = [
 const whyChooseUs = [
   {
     title: 'Nearly a Decade of Expertise',
-    description: 'Since 2015, Credify India has helped many organizations with reliable workforce screening backed by solid industry understanding and strong operational standards.',
+    description: 'Since 2015, Credify India has helped many organizations with reliable workforce screening backed by deep industry expertise and strong operational standards.',
     icon: Award,
   },
   {
@@ -87,7 +87,7 @@ const whyChooseUs = [
     icon: TrendingUp,
   },
   {
-    title: '100% Customized Programs',
+    title: 'Customized Programs',
     description: 'Every company faces unique staffing situations. We adjust employee drug screening solutions to match your industry, job types, and screening goals.',
     icon: Sliders,
   },

@@ -50,7 +50,7 @@ export default function Hero() {
           <motion.div variants={fadeUp} className="flex justify-center lg:justify-start">
             <span className="inline-flex items-center justify-center gap-2 px-3 sm:px-4 py-1 sm:py-1.5 bg-blue-50 border border-blue-200/70 rounded-full text-[9px] sm:text-[11px] font-bold uppercase tracking-[0.15em] sm:tracking-[0.2em] text-[#001f7d] mb-6 text-center">
               <span className="w-1.5 h-1.5 rounded-full bg-orange-500 animate-pulse flex-shrink-0" />
-              India&apos;s #1 Background Verification Partner
+              A Trusted Background Verification Partner
             </span>
           </motion.div>
 
@@ -129,7 +129,7 @@ export default function Hero() {
             ))}
             <span className="w-px h-4 bg-slate-200 mx-1 hidden sm:block" />
             <span className="text-xs font-semibold text-slate-400">
-              Trusted by 10,000+ companies
+              Trusted by 100+ companies
             </span>
           </motion.div>
         </motion.div>

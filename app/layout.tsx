@@ -10,10 +10,39 @@ const inter = Inter({
   weight: ['400', '500', '600', '700', '800'],
 })
 
+const siteTitle = 'Credify — India\'s Trusted Background Verification Partner'
+const siteDescription =
+  "India's proven background verification services partner. Trusted by 50+ enterprises since 2015 for secure, accurate, and compliant background checks across 15+ service types."
+
 export const metadata: Metadata = {
-  title: 'Credify — India\'s Trusted Background Verification Partner',
-  description:
-    "India's proven background verification services partner. Trusted by 500+ enterprises since 2015 for secure, accurate, and compliant background checks across 15+ service types.",
+  metadataBase: new URL('https://credify.in'),
+  title: siteTitle,
+  description: siteDescription,
+  alternates: {
+    canonical: '/',
+  },
+  openGraph: {
+    title: siteTitle,
+    description: siteDescription,
+    url: 'https://credify.in',
+    siteName: 'Credify India',
+    locale: 'en_IN',
+    type: 'website',
+    images: [
+      {
+        url: '/images/credify-og-image.png',
+        width: 1200,
+        height: 630,
+        alt: 'Credify India — Trusted Background Verification Partner',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: siteTitle,
+    description: siteDescription,
+    images: ['/images/credify-og-image.png'],
+  },
 }
 
 export const viewport: Viewport = {

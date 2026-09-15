@@ -212,7 +212,7 @@ export default function DueDiligenceClient() {
               </h1>
 
               <p className="text-base sm:text-lg text-slate-600 leading-relaxed max-w-2xl mx-auto lg:mx-0">
-                Are you finalizing big business moves without checking the facts first? Credify India’s Due Diligence Services help organizations review people, companies, and outside parties through organized due diligence steps that lead to wiser choices.
+                Credify India’s Due Diligence Services help organizations review people, companies, and third-party organizations through structured due diligence processes that support informed decision-making.
               </p>
 
               <div className="flex flex-wrap items-center justify-center lg:justify-start gap-4 pt-4">
@@ -261,14 +261,14 @@ export default function DueDiligenceClient() {
               </p>
 
               <p className="text-slate-600 leading-relaxed text-sm sm:text-base">
-                As an ISO 27001-certified, ISO 9001-certified, and SOC 2-audited firm, we maintain the highest standards of data protection, quality control, and smooth operations. Our due diligence offering can help businesses add extra diligence layers on third parties, raise awareness of the risks, and support a confident business move.
+                As an ISO 27001-certified, ISO 9001-certified, and SOC 2-audited firm, we follow strong data protection controls, quality control, and smooth operations. Our due diligence offering can help businesses add extra diligence layers on third parties, raise awareness of the risks, and support a confident business move.
               </p>
 
               <div className="p-4 rounded-xl bg-slate-50 border border-slate-200/80 flex items-start gap-4">
                 <img src="/icons/due-diligence-services.svg" alt="Due Diligence Services" className="w-7 h-7 flex-shrink-0 mt-1" />
                 <div className="text-xs sm:text-sm text-slate-600">
                   <strong className="text-slate-900 block font-semibold mb-0.5">ISO 27001, ISO 9001 & SOC 2 Audited Firm</strong>
-                  Maintaining the highest standards of data protection, quality control, and smooth operations.
+                  Maintaining strong data protection controls, quality control, and smooth operations.
                 </div>
               </div>
             </div>
@@ -427,7 +427,7 @@ export default function DueDiligenceClient() {
                 Ready to Make Better Business Decisions?
               </h2>
               <p className="text-blue-100/90 text-sm sm:text-base">
-                Every good business relationship starts with clear choices. Credify India’s Due Diligence Services help organizations review vendors, partners, and outside parties through organized assessment methods that match their business goals.
+                Every strong business relationship starts with informed decisions. Credify India’s Due Diligence Services help organizations review vendors, partners, and third-party organizations through structured assessment methods that match their business goals.
               </p>
             </div>
 

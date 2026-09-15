@@ -4,7 +4,10 @@ import TenantServiceClient from './TenantServiceClient'
 export const metadata: Metadata = {
   title: 'Tenant Verification Services — Credify India',
   description:
-    'Are you giving out keys to your place without really knowing the person? Credify India offers Tenant Verification Services for secure rental decisions.',
+    'Credify India offers comprehensive Tenant Verification Services to support secure, informed rental decisions through structured background checks.',
+  alternates: {
+    canonical: '/tenant-verification',
+  },
 }
 
 export default function TenantVerificationPage() {

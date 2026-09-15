@@ -36,7 +36,7 @@ const includesList = [
   },
   {
     title: 'Business Registration Review',
-    description: 'Our checking process examines relevant registration information to support smart vendor onboarding and procurement decisions.',
+    description: 'Our verification process examines relevant registration information to support smart vendor onboarding and procurement decisions.',
     icon: FileText,
     color: 'border-emerald-200 bg-emerald-50/50 text-emerald-700',
   },
@@ -78,7 +78,7 @@ const whyChooseUs = [
     icon: ShieldCheck,
   },
   {
-    title: '100% Tailored Vendor Screening',
+    title: 'Tailored Vendor Screening',
     description: 'Verification workflows are customized based on supplier category, procurement policies, industry regulations, and organizational risk appetite.',
     icon: Sliders,
   },
@@ -138,7 +138,7 @@ const benefits = [
   },
   {
     title: 'Improved Third-Party Governance',
-    description: 'Organized checks strengthen vendor management by creating transparent, standardized ways to assess outside parties.',
+    description: 'Organized checks strengthen vendor management by creating transparent, standardized ways to assess third-party organizations.',
   },
   {
     title: 'Enhanced Business Confidence',

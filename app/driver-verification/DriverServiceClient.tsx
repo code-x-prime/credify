@@ -130,7 +130,7 @@ const steps = [
 const benefits = [
   {
     title: 'Better Driver Selection',
-    description: 'Driver verification lets organizations review driver details before hiring, leading to wiser workforce decisions.',
+    description: 'Driver verification lets organizations review driver details before hiring, supporting informed workforce decisions.',
   },
   {
     title: 'Stronger Fleet Operations',

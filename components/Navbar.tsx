@@ -103,7 +103,7 @@ export default function Navbar() {
                 <span className="w-px h-3 bg-slate-200" />
                 <span className="flex items-center gap-1.5">
                   <img src="/icons/certified-for-security-quality.svg" alt="Shield" className="w-[12px] h-[12px]" />
-                  SOC 2 Certified
+                  SOC 2 Audited
                 </span>
               </div>
               <div className="flex items-center gap-4 ml-auto text-slate-500 font-medium">

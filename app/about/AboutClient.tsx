@@ -56,7 +56,7 @@ const certifications = [
   },
   {
     title: 'SOC 2 Audited',
-    description: 'Our SOC 2-checked operations prove that we focus on protected systems, managed processes, and careful care of client information.',
+    description: 'Our SOC 2-audited operations prove that we focus on protected systems, managed processes, and careful care of client information.',
     icon: ShieldCheck,
     badgeColor: 'bg-emerald-50 text-emerald-700 border-emerald-200',
   },
@@ -175,7 +175,7 @@ export default function AboutClient() {
 
                 <div className="mt-6 pt-4 border-t border-slate-100 flex items-center justify-between text-xs text-slate-400">
                   <span>Pan-India Coverage</span>
-                  <span className="font-bold text-blue-700">100% Secure Data</span>
+                  <span className="font-bold text-blue-700">Secure Data Handling</span>
                 </div>
               </div>
             </div>
@@ -199,7 +199,7 @@ export default function AboutClient() {
               </h2>
 
               <p className="text-slate-600 leading-relaxed text-sm sm:text-base">
-                Credify India is a reliable background verification and due diligence firm that helps organizations make smart hiring, onboarding, and business decisions through solid verification options. We started in 2015 and have partnered with organizations across many fields to simplify verification while protecting workforce quality, daily efficiency, and informed decisions.
+                Credify India is a reliable background verification and due diligence firm that helps organizations make smart hiring, onboarding, and business decisions through structured verification processes. We started in 2015 and have partnered with organizations across many fields to simplify verification while protecting workforce quality, daily efficiency, and informed decisions.
               </p>
 
               <p className="text-slate-600 leading-relaxed text-sm sm:text-base">

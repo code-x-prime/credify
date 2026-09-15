@@ -161,7 +161,7 @@ const steps = [
   {
     step: 'Step 5',
     title: 'Report Delivery',
-    description: 'We prepare a full report and share it securely with the right people so you can make good hiring decisions.',
+    description: 'We prepare a full report and share it securely with the right people to support informed hiring decisions.',
   },
 ]
 
@@ -272,7 +272,7 @@ export default function EbgvClient() {
               </h2>
 
               <p className="text-slate-600 leading-relaxed text-sm sm:text-base">
-                Credify India offers solid Employee Background Verification Services that let organizations hire with more peace of mind. We use accurate, safe, and dependable methods to check candidates before they join. Since 2015, we’ve been helping businesses in different fields with standard verification processes that confirm what candidates say about themselves.
+                Credify India offers comprehensive Employee Background Verification Services that support organizations in making confident, informed hiring decisions. We use accurate, safe, and dependable methods to check candidates before they join. Since 2015, we’ve been helping businesses in different fields with standard verification processes that confirm what candidates say about themselves.
               </p>
 
               <p className="text-slate-600 leading-relaxed text-sm sm:text-base">
@@ -282,7 +282,7 @@ export default function EbgvClient() {
               <div className="p-4 rounded-xl bg-slate-50 border border-slate-200/80 flex items-start gap-4">
                 <img src="/icons/employee-bgv.svg" alt="Employee Background Verification" className="w-7 h-7 flex-shrink-0 mt-1" />
                 <div className="text-xs sm:text-sm text-slate-600">
-                  <strong className="text-slate-900 block font-semibold mb-0.5">ISO 27001, ISO 9001 & SOC 2 Certified</strong>
+                  <strong className="text-slate-900 block font-semibold mb-0.5">ISO 27001, ISO 9001 Certified & SOC 2 Audited</strong>
                   We strictly follow international security and quality guidelines to safeguard candidate privacy and company data.
                 </div>
               </div>
@@ -439,7 +439,7 @@ export default function EbgvClient() {
                 Build a Trusted Workforce with Credify India
               </h2>
               <p className="text-blue-100/90 text-sm sm:text-base">
-                Finding good people starts with proper checking. Credify India’s Employee Background Verification Services help companies verify candidate details, make recruitment smoother, and build a team they can count on.
+                Building a trusted workforce starts with structured verification. Credify India’s Employee Background Verification Services help companies verify candidate details, streamline recruitment, and build a reliable team.
               </p>
             </div>
 

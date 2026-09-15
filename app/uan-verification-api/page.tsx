@@ -5,6 +5,9 @@ export const metadata: Metadata = {
   title: 'UAN Verification API — Credify India',
   description:
     'Simplify employment verification with Credify India’s UAN Verification API. Check UAN-related employment information securely to speed up employee onboarding.',
+  alternates: {
+    canonical: '/uan-verification-api',
+  },
 }
 
 export default function UanVerificationPage() {

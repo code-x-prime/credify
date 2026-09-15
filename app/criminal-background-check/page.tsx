@@ -5,6 +5,9 @@ export const metadata: Metadata = {
   title: 'Criminal Background Check Services — Credify India',
   description:
     'Strengthen your hiring process with Credify India’s criminal background check services. ISO 27001, ISO 9001 certified and SOC 2 audited partner.',
+  alternates: {
+    canonical: '/criminal-background-check',
+  },
 }
 
 export default function CriminalCheckPage() {

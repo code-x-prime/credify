@@ -4,7 +4,10 @@ import VendorServiceClient from './VendorServiceClient'
 export const metadata: Metadata = {
   title: 'Vendor Verification Services — Credify India',
   description:
-    'Can working with an unchecked vendor put your operations, finances, or compliance at risk? Credify India offers Vendor Verification Services for secure business partnerships.',
+    'Credify India offers Vendor Verification Services to support secure business partnerships through structured operational, financial, and compliance risk evaluation.',
+  alternates: {
+    canonical: '/vendor-verification',
+  },
 }
 
 export default function VendorVerificationPage() {

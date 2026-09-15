@@ -429,7 +429,7 @@ export default function DocServiceClient() {
                 Every Important Decision Starts with Verified Documents
               </h2>
               <p className="text-blue-100/90 text-sm sm:text-base">
-                Solid documentation creates the base for confident hiring and trustworthy business connections. Credify India’s Document Verification Services help organizations confirm essential documents through organized, technology-supported processes that make recruitment smoother.
+                Verified documentation creates the base for confident hiring and trustworthy business connections. Credify India’s Document Verification Services help organizations confirm essential documents through organized, technology-supported processes that make recruitment smoother.
               </p>
             </div>
 

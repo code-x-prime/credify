@@ -356,7 +356,17 @@ export default function ContactClient() {
                       className="mt-1 h-4 w-4 text-[#001f7d] rounded"
                     />
                     <label htmlFor="contact-consent" className="text-xs text-slate-500 leading-normal cursor-pointer">
-                      I agree to the processing of my personal data according to Credify India&apos;s Privacy Policy.
+                      I agree to the processing of my personal data according to Credify India&apos;s{' '}
+                      <a
+                        href="https://brightoindia.com/privacy-policy"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-[#001f7d] underline hover:text-orange-500"
+                        onClick={(e) => e.stopPropagation()}
+                      >
+                        Privacy Policy
+                      </a>
+                      .
                     </label>
                   </div>
                   {fieldErrors.consent && <p className="text-[11px] text-rose-600">{fieldErrors.consent}</p>}

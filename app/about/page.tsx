@@ -5,6 +5,9 @@ export const metadata: Metadata = {
   title: 'About Us — Credify India',
   description:
     'Building Trust Through Every Verification Since 2015. Learn more about Credify India, our mission, vision, principles, and certifications.',
+  alternates: {
+    canonical: '/about',
+  },
 }
 
 export default function AboutPage() {

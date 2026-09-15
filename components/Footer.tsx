@@ -13,8 +13,8 @@ const quickLinks = [
   { label: 'About Us', href: '/about' },
   { label: 'Careers', href: '/career' },
   { label: 'Contact Us', href: '/contact' },
-  { label: 'Privacy Policy', href: '/contact' },
-  { label: 'Terms of Service', href: '/contact' },
+  { label: 'Privacy Policy', href: 'https://brightoindia.com/privacy-policy' },
+  { label: 'Terms of Service', href: 'https://brightoindia.com/terms-of-use' },
 ]
 
 const servicesList = [
@@ -160,7 +160,7 @@ export default function Footer() {
                 className="h-16 object-contain w-auto brightness-0 invert opacity-90 mr-auto"
               />
               <p className="text-sm text-white/45 leading-relaxed max-w-xs">
-                India&apos;s trusted background verification partner since 2015. Trusted by 500+ enterprises for secure, accurate, and compliant checks.
+                India&apos;s trusted background verification partner since 2015. Trusted by 50+ enterprises for secure, accurate, and compliant checks.
               </p>
 
               {/* Certification Badges */}

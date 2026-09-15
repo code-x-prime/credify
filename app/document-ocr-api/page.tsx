@@ -5,6 +5,9 @@ export const metadata: Metadata = {
   title: 'Document OCR API — Credify India',
   description:
     'Automate document data extraction with Credify India’s Document OCR API. Extract data from identity and business documents accurately with scalable API integration.',
+  alternates: {
+    canonical: '/document-ocr-api',
+  },
 }
 
 export default function DocumentOcrPage() {

@@ -5,6 +5,9 @@ export const metadata: Metadata = {
   title: 'Aadhaar Verification API — Credify India',
   description:
     'Speed up customer onboarding with Credify India’s Aadhaar Verification API. Check Aadhaar details securely with scalable, developer-friendly API integrations.',
+  alternates: {
+    canonical: '/aadhaar-verification-api',
+  },
 }
 
 export default function AadhaarVerificationPage() {

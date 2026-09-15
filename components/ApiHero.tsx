@@ -116,7 +116,7 @@ export default function ApiHero({
               <div className="mt-4 pt-4 border-t border-slate-800/80 flex items-center justify-between text-[11px] text-slate-400">
                 <span className="flex items-center gap-1">
                   <ShieldCheck size={13} className="text-emerald-400" />
-                  SOC 2 & ISO 27001 Compliant
+                  SOC 2 Audited & ISO 27001 Certified
                 </span>
                 <span className="text-emerald-400 font-mono">Response: 180ms</span>
               </div>

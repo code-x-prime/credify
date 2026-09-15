@@ -275,7 +275,16 @@ export default function DemoModal() {
                   </button>
 
                   <p className="text-[11px] text-slate-400 text-center mt-1">
-                    We&apos;ll get back to you within 24 business hours. No spam, ever.
+                    We&apos;ll get back to you within 24 business hours. By submitting, you agree to the processing of your data according to our{' '}
+                    <a
+                      href="https://brightoindia.com/privacy-policy"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-[#001f7d] underline hover:text-orange-500"
+                    >
+                      Privacy Policy
+                    </a>
+                    .
                   </p>
                 </form>
               )}

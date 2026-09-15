@@ -4,7 +4,10 @@ import DueDiligenceClient from './DueDiligenceClient'
 export const metadata: Metadata = {
   title: 'Due Diligence Services — Credify India',
   description:
-    'Are you finalizing big business moves without checking the facts first? Credify India’s Due Diligence Services help organizations review people, companies, and outside parties.',
+    'Credify India’s Due Diligence Services help organizations review people, companies, and third-party organizations through structured due diligence processes.',
+  alternates: {
+    canonical: '/due-diligence-services',
+  },
 }
 
 export default function DueDiligencePage() {

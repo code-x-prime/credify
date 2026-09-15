@@ -36,7 +36,7 @@ const includesList = [
   },
   {
     title: 'Identity Validation',
-    description: 'Our checking process confirms the candidate’s identity information to make sure the credit verification stays accurate and produces trustworthy results.',
+    description: 'Our verification process confirms the candidate’s identity information to make sure the credit verification stays accurate and produces trustworthy results.',
     icon: Shield,
     color: 'border-emerald-200 bg-emerald-50/50 text-emerald-700',
   },
@@ -78,7 +78,7 @@ const whyChooseUs = [
     icon: Users,
   },
   {
-    title: '500+ Enterprise & Growing Businesses',
+    title: '50+ Enterprise & Growing Businesses',
     description: 'Organizations across industries trust Credify India to deliver verification services that support confident hiring, reduce recruitment risks, and streamline onboarding.',
     icon: Building2,
   },
@@ -258,7 +258,7 @@ export default function CreditCheckClient() {
               </h2>
 
               <p className="text-slate-600 leading-relaxed text-sm sm:text-base">
-                Credify India delivers solid Employee Credit Check Services that give organizations better tools for hiring people into positions with money-handling duties and trust-based roles. We&apos;ve been doing so since 2015, combining seasoned verification personnel, uniform verification procedures, and technology to provide solutions that are both effective and relevant to each business.
+                Credify India delivers comprehensive Employee Credit Check Services that give organizations better tools for hiring people into positions with money-handling duties and trust-based roles. We&apos;ve been doing so since 2015, combining seasoned verification personnel, uniform verification procedures, and technology to provide solutions that are both effective and relevant to each business.
               </p>
 
               <p className="text-slate-600 leading-relaxed text-sm sm:text-base">
@@ -285,7 +285,7 @@ export default function CreditCheckClient() {
                   An Employee Credit Check is a review process that looks at key credit details for certain jobs where handling finances matters. It lets organizations check available financial records while following company rules and approval steps.
                 </p>
                 <p className="text-xs sm:text-sm text-blue-100/90 leading-relaxed">
-                  Companies often run employee credit checks for positions in financial management, banking, accounting, senior leadership, procurement, and other roles with major money responsibilities. At Credify India, we handle employee credit check services through clear verification steps that support good hiring choices and keep all information private.
+                  Companies often run employee credit checks for positions in financial management, banking, accounting, senior leadership, procurement, and other roles with major money responsibilities. At Credify India, we handle employee credit check services through clear verification steps that support informed hiring decisions and keep all information private.
                 </p>
               </div>
             </div>
@@ -428,7 +428,7 @@ export default function CreditCheckClient() {
                 Make Financially Informed Hiring Decisions with Credify India
               </h2>
               <p className="text-blue-100/90 text-sm sm:text-base">
-                Good hiring choices depend on having the right information. Credify India’s Employee Credit Check Services help organizations review key financial background details for the right roles through safe, organized, and trustworthy verification solutions.
+                Informed hiring decisions depend on having the right information. Credify India’s Employee Credit Check Services help organizations review key financial background details for the right roles through safe, organized, and trustworthy verification solutions.
               </p>
             </div>
 

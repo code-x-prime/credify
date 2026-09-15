@@ -6,6 +6,9 @@ export const metadata: Metadata = {
   title: 'Document Verification Services — Credify India',
   description:
     'Fast, Secure & Reliable Document Verification Services with Credify India. ISO 27001, ISO 9001 certified and SOC 2 audited partner.',
+  alternates: {
+    canonical: '/document-verification',
+  },
 }
 
 export default function DocumentVerificationPage() {
