@@ -215,6 +215,7 @@ export default function CareerClient() {
       formData.append('phone', form.phone)
       formData.append('message', form.message)
       formData.append('jobId', selectedJob.id)
+      formData.append('consent', 'true')
       formData.append('resume', resume)
 
       const res = await fetch(`${API_BASE_URL}/api/jobs/apply`, {
