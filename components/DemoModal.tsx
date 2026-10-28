@@ -242,6 +242,7 @@ export default function DemoModal() {
                       <option value="Vendor Verification">Vendor Verification</option>
                       <option value="Due Diligence Services">Due Diligence Services</option>
                       <option value="Tenant Verification">Tenant Verification</option>
+                      <option value="Job Enquiry">Job Enquiry</option>
                       <option value="Other Solutions">Other Custom Requirements</option>
                     </select>
                   </div>
