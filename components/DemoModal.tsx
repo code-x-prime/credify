@@ -70,7 +70,9 @@ export default function DemoModal() {
         email: form.email.trim().toLowerCase(),
         phone: form.phone.trim(),
         subject: `[Credify India Demo] Inquiry for ${form.service}`,
-        message: `Organization: ${form.organization || 'Not Specified'}\nService: ${form.service}\nSource Site: Credify India Demo Modal\n\nRequirement / Note:\n${form.message.trim() || 'Requesting product demonstration & walkthrough.'}`
+        message: `Organization: ${form.organization || 'Not Specified'}\nService: ${form.service}\nSource Site: Credify India Demo Modal\n\nRequirement / Note:\n${form.message.trim() || 'Requesting product demonstration & walkthrough.'}`,
+        source: 'Credify',
+        consent: 'true',
       }
 
       const res = await fetch(`${API_BASE_URL}/api/contact`, {
